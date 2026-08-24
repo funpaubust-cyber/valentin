@@ -247,17 +247,36 @@ function ChatWidgetInner() {
 
   return (
     <>
-      <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open || Boolean(error)} />
+      {/* Единый блок: шапка + HOST_ID всегда в DOM вместе, никогда не разъезжаются */}
+      <div className={`vk-chat-panel${open && !error ? " vk-chat-panel--open" : ""}`}>
+        <div className="vk-chat-panel-header">
+          <div>
+            <p className="font-serif text-lg text-milk">Чат ВКонтакте</p>
+            <p className="text-xs text-milk/60">салон Valentin</p>
+          </div>
+          <button
+            type="button"
+            onClick={closeChat}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-milk/20 text-milk transition hover:bg-milk/10"
+            aria-label="Закрыть чат"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
 
-      <div className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-50 flex flex-col items-end gap-3 sm:right-6">
-        {open && loading ? (
-          <div className="rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-3 text-sm text-graphite/55 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
-            Подключаем чат ВК…
+        {loading && open && !error ? (
+          <div className="bg-[#faf9f5] px-4 py-5 text-sm text-graphite/55">
+            Подключаем сообщения сообщества…
           </div>
         ) : null}
 
+        <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open || Boolean(error)} />
+      </div>
+
+      {/* Кнопка + подсказки */}
+      <div className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-[82] flex flex-col items-end gap-3 sm:right-6">
         {open && error ? (
-          <div className="w-[min(24rem,calc(100vw-2rem))] space-y-3 rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-5 text-sm leading-relaxed text-graphite/70 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
+          <div className="w-[min(22rem,calc(100vw-2rem))] space-y-3 rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-5 text-sm leading-relaxed text-graphite/70 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
             <p>{error}</p>
             <a
               href={SALON_PHONE_HREF}

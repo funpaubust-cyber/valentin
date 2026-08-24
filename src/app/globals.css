@@ -134,33 +134,53 @@ img {
   animation-play-state: paused;
 }
 
-.vk-chat-host {
+/* ВК-панель: шапка + iframe — один нераздельный блок */
+.vk-chat-panel {
   position: fixed;
   right: 1rem;
   bottom: 5.75rem;
-  z-index: 0;
+  z-index: 80;
   width: min(22rem, calc(100vw - 2rem));
-  height: min(34rem, calc(100dvh - 8.5rem));
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.1rem;
   overflow: hidden;
+  box-shadow: 0 24px 60px rgba(40, 24, 16, 0.28);
+  /* закрытое состояние */
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  border-radius: 1.1rem;
-  box-shadow: 0 24px 60px rgba(40, 24, 16, 0.22);
-  background: #fff;
 }
 
 @media (min-width: 640px) {
-  .vk-chat-host {
+  .vk-chat-panel {
     right: 1.5rem;
   }
 }
 
-html.vk-chat-open .vk-chat-host {
-  z-index: 80;
+.vk-chat-panel--open {
   pointer-events: auto;
   visibility: visible;
   opacity: 1;
+}
+
+.vk-chat-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #3d2418; /* bg-wood */
+  flex-shrink: 0;
+}
+
+/* HOST_ID — контейнер iframe */
+.vk-chat-host {
+  width: 100%;
+  height: min(30rem, calc(100dvh - 12rem));
+  position: relative;
+  overflow: hidden;
+  background: #fff;
 }
 
 .vk-chat-host iframe {
@@ -174,39 +194,11 @@ html.vk-chat-open .vk-chat-host {
   background: #fff !important;
 }
 
-/* ВК иногда вешает iframe прямо в body — совмещаем с местом хоста */
-html.vk-chat-open body > iframe[src*="community_messages"] {
-  position: fixed !important;
-  right: 1rem !important;
-  bottom: 5.75rem !important;
-  width: min(22rem, calc(100vw - 2rem)) !important;
-  height: min(34rem, calc(100dvh - 8.5rem)) !important;
-  max-width: none !important;
-  max-height: none !important;
-  z-index: 80 !important;
-  border: 0 !important;
-  border-radius: 1.1rem !important;
-  box-shadow: 0 24px 60px rgba(40, 24, 16, 0.22) !important;
-  background: #fff !important;
-  opacity: 1 !important;
-  pointer-events: auto !important;
-  display: block !important;
-  visibility: visible !important;
-}
-
-@media (min-width: 640px) {
-  html.vk-chat-open body > iframe[src*="community_messages"] {
-    right: 1.5rem !important;
-  }
-}
-
-html:not(.vk-chat-open) body > iframe[src*="community_messages"] {
+/* Если ВК всё же вставил iframe прямо в body — прячем (он уже рендерится внутри нашего контейнера) */
+body > iframe[src*="community_messages"] {
   display: none !important;
   visibility: hidden !important;
   pointer-events: none !important;
-  opacity: 0 !important;
-  width: 0 !important;
-  height: 0 !important;
 }
 
 #vk_community_messages_btn,
