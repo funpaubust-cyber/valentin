@@ -171,9 +171,9 @@ function ChatWidgetInner() {
   useVkDomGuard();
 
   useEffect(() => {
-    setChatOpenClass(open);
+    setChatOpenClass(open && !error);
     return () => setChatOpenClass(false);
-  }, [open]);
+  }, [open, error]);
 
   const bootWidget = useCallback(async () => {
     if (widgetRef.current || bootingRef.current) return;
@@ -193,17 +193,15 @@ function ChatWidgetInner() {
         buttonType: "no_button",
         disableButtonTooltip: 1,
         welcomeScreen: 0,
-        onCanNotWrite: () => {
-          setError(
-            "Чат ВК сейчас недоступен. Позвоните +7 (920) 200-51-24 — ответим в салоне.",
-          );
-        },
+        // Не ставим свой error на onCanNotWrite: у гостя виджет сам рисует «Войти».
         onMinimize: () => {
           setOpen(false);
         },
       });
     } catch {
       widgetRef.current = null;
+      const host = document.getElementById(HOST_ID);
+      if (host) host.innerHTML = "";
       setError(
         "Не удалось загрузить чат на странице. Позвоните +7 (920) 200-51-24.",
       );
@@ -244,9 +242,9 @@ function ChatWidgetInner() {
 
   return (
     <>
-      <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open} />
+      <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open || Boolean(error)} />
 
-      {open ? (
+      {open && !error ? (
         <div className="vk-chat-chrome overflow-hidden rounded-t-[1.35rem] border border-b-0 border-brass/25 bg-wood shadow-[0_24px_60px_rgba(40,24,16,0.28)]">
           <div className="flex items-center justify-between gap-3 px-4 py-3">
             <div>
@@ -267,21 +265,22 @@ function ChatWidgetInner() {
               Подключаем сообщения сообщества…
             </div>
           ) : null}
-          {error ? (
-            <div className="space-y-3 bg-milk px-4 py-5 text-sm leading-relaxed text-graphite/70">
-              <p>{error}</p>
-              <a
-                href={SALON_PHONE_HREF}
-                className="inline-flex min-h-11 items-center justify-center rounded-full bg-wood px-4 text-xs uppercase tracking-[0.14em] text-milk"
-              >
-                Позвонить
-              </a>
-            </div>
-          ) : null}
         </div>
       ) : null}
 
       <div className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-50 flex flex-col items-end gap-3 sm:right-6">
+        {open && error ? (
+          <div className="w-[min(24rem,calc(100vw-2rem))] space-y-3 rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-5 text-sm leading-relaxed text-graphite/70 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
+            <p>{error}</p>
+            <a
+              href={SALON_PHONE_HREF}
+              className="inline-flex min-h-11 items-center justify-center rounded-full bg-wood px-4 text-xs uppercase tracking-[0.14em] text-milk"
+            >
+              Позвонить
+            </a>
+          </div>
+        ) : null}
+
         {hint && !open ? (
           <div className="hidden max-w-[16rem] rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-3 text-sm text-graphite shadow-[0_16px_40px_rgba(40,24,16,0.12)] sm:block">
             Напишите нам в ВК — подберём кухню или диван
