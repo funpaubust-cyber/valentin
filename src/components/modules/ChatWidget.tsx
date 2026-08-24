@@ -247,9 +247,12 @@ function ChatWidgetInner() {
 
   return (
     <>
-      {/* Единый блок: шапка + HOST_ID всегда в DOM вместе, никогда не разъезжаются */}
-      <div className={`vk-chat-panel${open && !error ? " vk-chat-panel--open" : ""}`}>
-        <div className="vk-chat-panel-header">
+      {/* HOST_ID — ВК рендерит iframe сюда (или в body, тогда CSS перепозиционирует) */}
+      <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open} />
+
+      {/* Шапка в стиле сайта — fixed с теми же координатами, что и host, прямо над ним */}
+      {open && !error ? (
+        <div className="vk-chat-chrome">
           <div>
             <p className="font-serif text-lg text-milk">Чат ВКонтакте</p>
             <p className="text-xs text-milk/60">салон Valentin</p>
@@ -263,27 +266,25 @@ function ChatWidgetInner() {
             <X className="h-4 w-4" />
           </button>
         </div>
-
-        {loading && open && !error ? (
-          <div className="bg-[#faf9f5] px-4 py-5 text-sm text-graphite/55">
-            Подключаем сообщения сообщества…
-          </div>
-        ) : null}
-
-        <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open || Boolean(error)} />
-      </div>
+      ) : null}
 
       {/* Кнопка + подсказки */}
       <div className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-[82] flex flex-col items-end gap-3 sm:right-6">
-        {open && error ? (
-          <div className="w-[min(22rem,calc(100vw-2rem))] space-y-3 rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-5 text-sm leading-relaxed text-graphite/70 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
-            <p>{error}</p>
-            <a
-              href={SALON_PHONE_HREF}
-              className="inline-flex min-h-11 items-center justify-center rounded-full bg-wood px-4 text-xs uppercase tracking-[0.14em] text-milk"
-            >
-              Позвонить
-            </a>
+        {open && (loading || error) ? (
+          <div className="w-[min(22rem,calc(100vw-2rem))] rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-4 text-sm text-graphite/70 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
+            {loading ? (
+              <p className="text-graphite/55">Подключаем сообщения сообщества…</p>
+            ) : (
+              <div className="space-y-3">
+                <p>{error}</p>
+                <a
+                  href={SALON_PHONE_HREF}
+                  className="inline-flex min-h-11 items-center justify-center rounded-full bg-wood px-4 text-xs uppercase tracking-[0.14em] text-milk"
+                >
+                  Позвонить
+                </a>
+              </div>
+            )}
           </div>
         ) : null}
 
