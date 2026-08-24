@@ -1,0 +1,250 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --brass: #3d2418;
+  --brass-soft: #6b4a3a;
+  --shadow-lift: 0 4px 24px -8px rgba(30, 30, 30, 0.12),
+    0 24px 64px -28px rgba(61, 36, 24, 0.28);
+  --shadow-deep: 0 8px 40px -12px rgba(30, 30, 30, 0.35),
+    0 40px 100px -40px rgba(30, 30, 30, 0.45);
+  --shadow-brass: 0 0 0 1px rgba(61, 36, 24, 0.32),
+    0 12px 40px -18px rgba(61, 36, 24, 0.4);
+}
+
+html {
+  scroll-behavior: auto;
+  overflow-x: clip;
+}
+
+@media (min-width: 768px) {
+  html {
+    scrollbar-gutter: stable;
+  }
+}
+
+body {
+  @apply bg-cashmere font-sans text-graphite antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+  max-width: 100%;
+  -webkit-tap-highlight-color: rgba(61, 36, 24, 0.12);
+}
+
+input,
+textarea,
+select {
+  font-size: 16px;
+}
+
+::selection {
+  background: rgba(122, 90, 74, 0.32);
+  color: #1e1e1e;
+}
+
+img {
+  user-select: none;
+}
+
+.shadow-lift {
+  box-shadow: var(--shadow-lift);
+}
+
+.shadow-deep {
+  box-shadow: var(--shadow-deep);
+}
+
+.shadow-brass-glow {
+  box-shadow: var(--shadow-brass);
+}
+
+.divider-brass {
+  border-color: rgba(61, 36, 24, 0.32);
+}
+
+.grid-lines {
+  background-image: linear-gradient(
+      rgba(61, 36, 24, 0.12) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(61, 36, 24, 0.12) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+/* Шоколадная тонировка с лёгким древесным зерном */
+.bg-wood {
+  background-color: #3d2418;
+  background-image: linear-gradient(
+      165deg,
+      rgba(250, 249, 245, 0.1) 0%,
+      transparent 45%,
+      rgba(0, 0, 0, 0.14) 100%
+    ),
+    linear-gradient(rgba(61, 36, 24, 0.94), rgba(61, 36, 24, 0.94)),
+    url("/images/real/wood-texture.jpg");
+  background-size: cover, cover, 220% auto;
+  background-position: center;
+  color: #faf9f5;
+  transition: filter 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.bg-wood:hover {
+  filter: brightness(1.05);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.photo-frame {
+  @apply overflow-hidden bg-walnut/20;
+  box-shadow: var(--shadow-lift);
+}
+
+.photo-frame img {
+  transition: transform 1.1s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.6s ease;
+}
+
+.group:hover .photo-frame img,
+.photo-frame:hover img {
+  transform: scale(1.04);
+}
+
+@keyframes reviews-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.reviews-track {
+  animation: reviews-marquee 90s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.reviews-marquee:hover .reviews-track,
+.reviews-marquee:focus-within .reviews-track {
+  animation-play-state: paused;
+}
+
+.vk-chat-host {
+  position: fixed;
+  right: 1rem;
+  bottom: 5.75rem;
+  z-index: 0;
+  width: min(24rem, calc(100vw - 2rem));
+  height: min(32.5rem, calc(100dvh - 10.5rem));
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 0 0 1.35rem 1.35rem;
+}
+
+@media (min-width: 640px) {
+  .vk-chat-host {
+    right: 1.5rem;
+  }
+}
+
+html.vk-chat-open .vk-chat-host {
+  z-index: 80;
+  pointer-events: auto;
+  visibility: visible;
+  opacity: 1;
+}
+
+.vk-chat-host iframe {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  border: 0 !important;
+  background: #faf9f5 !important;
+}
+
+.vk-chat-chrome {
+  --vk-chat-bottom: 5.75rem;
+  --vk-chat-header: 3.6rem;
+  --vk-chat-frame-h: min(32.5rem, calc(100dvh - 10.5rem));
+  position: fixed;
+  right: 1rem;
+  bottom: calc(var(--vk-chat-bottom) + var(--vk-chat-frame-h));
+  z-index: 81;
+  width: min(24rem, calc(100vw - 2rem));
+}
+
+@media (min-width: 640px) {
+  .vk-chat-chrome {
+    right: 1.5rem;
+  }
+}
+
+/* ВК иногда вешает iframe прямо в body — тогда ставим его на место панели */
+html.vk-chat-open body > iframe[src*="community_messages"] {
+  position: fixed !important;
+  right: 1rem !important;
+  bottom: 5.75rem !important;
+  width: min(24rem, calc(100vw - 2rem)) !important;
+  height: min(32.5rem, calc(100dvh - 10.5rem)) !important;
+  max-width: none !important;
+  max-height: none !important;
+  z-index: 80 !important;
+  border: 0 !important;
+  border-radius: 0 0 1.35rem 1.35rem !important;
+  box-shadow: none !important;
+  background: #faf9f5 !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
+@media (min-width: 640px) {
+  html.vk-chat-open body > iframe[src*="community_messages"] {
+    right: 1.5rem !important;
+  }
+}
+
+html:not(.vk-chat-open) body > iframe[src*="community_messages"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+#vk_community_messages_btn,
+.vkc_button {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reviews-track {
+    animation: none !important;
+    transform: none !important;
+  }
+}

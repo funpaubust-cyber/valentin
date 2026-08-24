@@ -1,0 +1,184 @@
+{
+  "kitchens": [
+    {
+      "id": "kitchen-01",
+      "clusterId": "cluster-327",
+      "style": "неоклассика",
+      "layout": "угловая с островом",
+      "files": ["photo_70_2026-08-23_17-34-16.jpg"]
+    },
+    {
+      "id": "kitchen-02",
+      "clusterId": "cluster-139",
+      "style": "неоклассика",
+      "layout": "угловая",
+      "files": ["photo_34_2026-08-23_17-34-27.jpg"]
+    },
+    {
+      "id": "kitchen-03",
+      "clusterId": "cluster-144",
+      "style": "неоклассика",
+      "layout": "прямая",
+      "files": ["photo_35_2026-08-23_17-34-27.jpg"]
+    },
+    {
+      "id": "kitchen-04",
+      "clusterId": "cluster-063",
+      "style": "современный",
+      "layout": "угловая",
+      "files": ["photo_20_2026-08-23_17-34-16.jpg"]
+    },
+    {
+      "id": "kitchen-05",
+      "clusterId": "cluster-102",
+      "style": "современный",
+      "layout": "прямая",
+      "files": ["photo_28_2026-08-23_17-34-16.jpg"]
+    },
+    {
+      "id": "kitchen-06",
+      "clusterId": "cluster-401",
+      "style": "современный",
+      "layout": "П-образная с барной стойкой",
+      "files": ["photo_94_2026-08-23_17-33-10.jpg"]
+    },
+    {
+      "id": "kitchen-07",
+      "clusterId": "cluster-357",
+      "style": "современный",
+      "layout": "прямая",
+      "files": ["photo_7_2026-08-23_17-34-16.jpg"]
+    },
+    {
+      "id": "kitchen-08",
+      "clusterId": "cluster-067",
+      "style": "современный",
+      "layout": "угловая",
+      "files": [
+        "photo_21_2026-08-23_17-33-10.jpg",
+        "photo_40_2026-08-23_17-34-16.jpg"
+      ]
+    }
+  ],
+  "hallways": [
+    {
+      "id": "hallway-01",
+      "clusterId": "cluster-031",
+      "style": "неоклассика",
+      "layout": "с зеркалом и сиденьем",
+      "files": [
+        "photo_53_2026-08-23_17-34-27.jpg",
+        "photo_57_2026-08-23_17-34-27.jpg",
+        "photo_15_2026-08-23_17-33-10.jpg",
+        "photo_3_2026-08-23_17-33-10.jpg"
+      ]
+    },
+    {
+      "id": "hallway-02",
+      "clusterId": "cluster-145",
+      "style": "классика",
+      "layout": "с зеркалом и банкеткой",
+      "files": ["photo_35_2026-08-23_17-34-51.jpg"]
+    },
+    {
+      "id": "hallway-03",
+      "clusterId": "cluster-182",
+      "style": "современный",
+      "layout": "с круглым зеркалом",
+      "files": ["photo_42_2026-08-23_17-34-16.jpg"]
+    },
+    {
+      "id": "hallway-04",
+      "clusterId": "cluster-151",
+      "style": "современный",
+      "layout": "модульная с рейками",
+      "files": ["photo_36_2026-08-23_17-35-05.jpg"]
+    },
+    {
+      "id": "hallway-05",
+      "clusterId": "cluster-049",
+      "style": "современный",
+      "layout": "с мягкой панелью",
+      "files": ["photo_18_2026-08-23_17-34-51.jpg"]
+    },
+    {
+      "id": "hallway-06",
+      "clusterId": "cluster-006",
+      "style": "современный",
+      "layout": "с зеркалом",
+      "files": ["photo_10_2026-08-23_17-34-55.jpg"]
+    },
+    {
+      "id": "hallway-07",
+      "clusterId": "cluster-291",
+      "style": "неоклассика",
+      "layout": "модульная",
+      "files": ["photo_63_2026-08-23_17-35-05.jpg"]
+    },
+    {
+      "id": "hallway-08",
+      "clusterId": "cluster-360",
+      "style": "классика",
+      "layout": "модульная",
+      "files": ["photo_7_2026-08-23_17-34-55.jpg"]
+    }
+  ],
+  "sofas": [
+    {
+      "id": "sofa-01",
+      "clusterId": "cluster-297",
+      "style": "неоклассика",
+      "layout": "прямой",
+      "files": ["photo_65_2026-08-23_17-33-10.jpg"]
+    },
+    {
+      "id": "sofa-02",
+      "clusterId": "cluster-292",
+      "style": "современный",
+      "layout": "прямой",
+      "files": ["photo_64_2026-08-23_17-33-10.jpg"]
+    },
+    {
+      "id": "sofa-03",
+      "clusterId": "cluster-257",
+      "style": "неоклассика",
+      "layout": "прямой",
+      "files": ["photo_57_2026-08-23_17-33-10.jpg"]
+    },
+    {
+      "id": "sofa-04",
+      "clusterId": "cluster-274",
+      "style": "современный",
+      "layout": "прямой",
+      "files": ["photo_60_2026-08-23_17-33-10.jpg"]
+    },
+    {
+      "id": "sofa-05",
+      "clusterId": "cluster-237",
+      "style": "классика",
+      "layout": "прямой",
+      "files": ["photo_52_2026-08-23_17-33-10.jpg"]
+    },
+    {
+      "id": "sofa-06",
+      "clusterId": "cluster-245",
+      "style": "классика",
+      "layout": "кресло",
+      "files": ["photo_54_2026-08-23_17-33-10.jpg"]
+    },
+    {
+      "id": "sofa-07",
+      "clusterId": "cluster-096",
+      "style": "современный",
+      "layout": "прямой",
+      "files": ["photo_26_2026-08-23_17-35-05.jpg"]
+    },
+    {
+      "id": "sofa-08",
+      "clusterId": "cluster-253",
+      "style": "классика",
+      "layout": "прямой",
+      "files": ["photo_56_2026-08-23_17-33-10.jpg"]
+    }
+  ]
+}

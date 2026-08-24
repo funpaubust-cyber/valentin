@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EDE8DF"/>
+      <stop offset="100%" stop-color="#C9BBA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <circle cx="120" cy="100" r="90" fill="#6B7C5C" opacity="0.12"/>
+  <circle cx="680" cy="420" r="140" fill="#1F1A14" opacity="0.06"/>
+  
+        <rect x="260" y="150" width="280" height="220" rx="40" fill="#6B7C5C"/>
+        <rect x="280" y="280" width="240" height="120" rx="24" fill="#C9BBA8"/>
+        <rect x="300" y="400" width="24" height="80" rx="8" fill="#1F1A14" opacity="0.55"/>
+        <rect x="476" y="400" width="24" height="80" rx="8" fill="#1F1A14" opacity="0.55"/>
+  <text x="40" y="964" font-family="Georgia, serif" font-size="28" fill="#1F1A14" opacity="0.55">Sabi II</text>
+</svg>

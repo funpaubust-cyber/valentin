@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A3B32"/>
+      <stop offset="55%" stop-color="#8C7A6B"/>
+      <stop offset="100%" stop-color="#C5A880"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E1E1E"/>
+      <stop offset="100%" stop-color="#4A3B32"/>
+    </linearGradient>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FAF9F5"/>
+      <stop offset="50%" stop-color="#F4F1EA"/>
+      <stop offset="100%" stop-color="#E8E2D6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="#FAF9F5"/>
+     <rect x="220" y="260" width="760" height="980" fill="#E8DFD2"/>
+     <rect x="260" y="300" width="680" height="820" fill="#D9CFC0"/>
+     <text x="220" y="180" fill="#8C7A6B" font-family="Georgia, serif" font-size="34">FOYER SOFT</text>
+</svg>

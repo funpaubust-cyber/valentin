@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A3B32"/>
+      <stop offset="55%" stop-color="#8C7A6B"/>
+      <stop offset="100%" stop-color="#C5A880"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E1E1E"/>
+      <stop offset="100%" stop-color="#4A3B32"/>
+    </linearGradient>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FAF9F5"/>
+      <stop offset="50%" stop-color="#F4F1EA"/>
+      <stop offset="100%" stop-color="#E8E2D6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#g2)"/>
+     <rect x="120" y="280" width="1360" height="720" fill="#2A221E"/>
+     <rect x="160" y="320" width="420" height="640" fill="#4A3B32"/>
+     <rect x="600" y="320" width="420" height="640" fill="#3F322B"/>
+     <rect x="1040" y="320" width="400" height="640" fill="#4A3B32"/>
+     <rect x="160" y="300" width="1280" height="36" fill="url(#marble)"/>
+     <rect x="160" y="336" width="1280" height="8" fill="#D4AF37" opacity="0.55"/>
+     <rect x="180" y="420" width="380" height="8" fill="#C5A880" opacity="0.35"/>
+     <rect x="620" y="420" width="380" height="8" fill="#C5A880" opacity="0.35"/>
+     <rect x="1060" y="420" width="360" height="8" fill="#C5A880" opacity="0.35"/>
+     <circle cx="1280" cy="220" r="180" fill="url(#glow)"/>
+     <text x="160" y="180" fill="#C5A880" font-family="Georgia, serif" font-size="42" letter-spacing="8">VALENTIN · NOCTURNE</text>
+</svg>

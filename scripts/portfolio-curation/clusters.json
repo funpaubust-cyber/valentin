@@ -1,0 +1,3759 @@
+[
+  {
+    "id": "cluster-031",
+    "count": 4,
+    "files": [
+      "photo_53_2026-08-23_17-34-27.jpg",
+      "photo_57_2026-08-23_17-34-27.jpg",
+      "photo_15_2026-08-23_17-33-10.jpg",
+      "photo_3_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_53_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_53_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-289",
+    "count": 3,
+    "files": [
+      "photo_63_2026-08-23_17-34-27.jpg",
+      "photo_65_2026-08-23_17-34-27.jpg",
+      "photo_87_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_63_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_63_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-002",
+    "count": 2,
+    "files": [
+      "photo_61_2026-08-23_17-34-27.jpg",
+      "photo_10_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_61_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_61_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-008",
+    "count": 2,
+    "files": [
+      "photo_60_2026-08-23_17-34-27.jpg",
+      "photo_11_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_60_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_60_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-014",
+    "count": 2,
+    "files": [
+      "photo_59_2026-08-23_17-34-27.jpg",
+      "photo_12_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_59_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_59_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-020",
+    "count": 2,
+    "files": [
+      "photo_58_2026-08-23_17-34-27.jpg",
+      "photo_13_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_58_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_58_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-041",
+    "count": 2,
+    "files": [
+      "photo_56_2026-08-23_17-34-27.jpg",
+      "photo_17_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_56_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_56_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-046",
+    "count": 2,
+    "files": [
+      "photo_18_2026-08-23_17-33-10.jpg",
+      "photo_28_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_18_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_18_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-056",
+    "count": 2,
+    "files": [
+      "photo_55_2026-08-23_17-34-27.jpg",
+      "photo_1_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_55_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_55_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-067",
+    "count": 2,
+    "files": [
+      "photo_21_2026-08-23_17-33-10.jpg",
+      "photo_40_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_21_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_21_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-111",
+    "count": 2,
+    "files": [
+      "photo_54_2026-08-23_17-34-27.jpg",
+      "photo_2_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_54_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_54_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-221",
+    "count": 2,
+    "files": [
+      "photo_52_2026-08-23_17-34-27.jpg",
+      "photo_4_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_52_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_52_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-234",
+    "count": 2,
+    "files": [
+      "photo_51_2026-08-23_17-34-27.jpg",
+      "photo_5_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_51_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_51_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-284",
+    "count": 2,
+    "files": [
+      "photo_62_2026-08-23_17-34-27.jpg",
+      "photo_9_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_62_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_62_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-294",
+    "count": 2,
+    "files": [
+      "photo_64_2026-08-23_17-34-27.jpg",
+      "photo_88_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_64_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_64_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-303",
+    "count": 2,
+    "files": [
+      "photo_66_2026-08-23_17-34-27.jpg",
+      "photo_90_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_66_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_66_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-308",
+    "count": 2,
+    "files": [
+      "photo_67_2026-08-23_17-34-27.jpg",
+      "photo_89_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_67_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_67_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-313",
+    "count": 2,
+    "files": [
+      "photo_68_2026-08-23_17-34-27.jpg",
+      "photo_93_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_68_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_68_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-342",
+    "count": 2,
+    "files": [
+      "photo_75_2026-08-23_17-34-16.jpg",
+      "photo_82_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_75_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_75_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-001",
+    "count": 1,
+    "files": [
+      "photo_100_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_100_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_100_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-003",
+    "count": 1,
+    "files": [
+      "photo_10_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_10_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_10_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-004",
+    "count": 1,
+    "files": [
+      "photo_10_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_10_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_10_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-005",
+    "count": 1,
+    "files": [
+      "photo_10_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_10_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_10_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-006",
+    "count": 1,
+    "files": [
+      "photo_10_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_10_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_10_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-007",
+    "count": 1,
+    "files": [
+      "photo_10_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_10_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_10_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-009",
+    "count": 1,
+    "files": [
+      "photo_11_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_11_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_11_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-010",
+    "count": 1,
+    "files": [
+      "photo_11_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_11_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_11_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-011",
+    "count": 1,
+    "files": [
+      "photo_11_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_11_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_11_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-012",
+    "count": 1,
+    "files": [
+      "photo_11_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_11_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_11_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-013",
+    "count": 1,
+    "files": [
+      "photo_11_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_11_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_11_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-015",
+    "count": 1,
+    "files": [
+      "photo_12_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_12_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_12_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-016",
+    "count": 1,
+    "files": [
+      "photo_12_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_12_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_12_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-017",
+    "count": 1,
+    "files": [
+      "photo_12_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_12_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_12_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-018",
+    "count": 1,
+    "files": [
+      "photo_12_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_12_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_12_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-019",
+    "count": 1,
+    "files": [
+      "photo_12_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_12_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_12_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-021",
+    "count": 1,
+    "files": [
+      "photo_13_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_13_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_13_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-022",
+    "count": 1,
+    "files": [
+      "photo_13_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_13_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_13_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-023",
+    "count": 1,
+    "files": [
+      "photo_13_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_13_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_13_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-024",
+    "count": 1,
+    "files": [
+      "photo_13_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_13_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_13_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-025",
+    "count": 1,
+    "files": [
+      "photo_13_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_13_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_13_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-026",
+    "count": 1,
+    "files": [
+      "photo_14_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_14_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_14_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-027",
+    "count": 1,
+    "files": [
+      "photo_14_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_14_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_14_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-028",
+    "count": 1,
+    "files": [
+      "photo_14_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_14_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_14_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-029",
+    "count": 1,
+    "files": [
+      "photo_14_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_14_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_14_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-030",
+    "count": 1,
+    "files": [
+      "photo_14_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_14_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_14_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-032",
+    "count": 1,
+    "files": [
+      "photo_15_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_15_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_15_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-033",
+    "count": 1,
+    "files": [
+      "photo_15_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_15_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_15_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-034",
+    "count": 1,
+    "files": [
+      "photo_15_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_15_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_15_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-035",
+    "count": 1,
+    "files": [
+      "photo_15_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_15_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_15_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-036",
+    "count": 1,
+    "files": [
+      "photo_16_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_16_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_16_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-037",
+    "count": 1,
+    "files": [
+      "photo_16_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_16_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_16_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-038",
+    "count": 1,
+    "files": [
+      "photo_16_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_16_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_16_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-039",
+    "count": 1,
+    "files": [
+      "photo_16_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_16_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_16_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-040",
+    "count": 1,
+    "files": [
+      "photo_16_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_16_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_16_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-042",
+    "count": 1,
+    "files": [
+      "photo_17_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_17_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_17_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-043",
+    "count": 1,
+    "files": [
+      "photo_17_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_17_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_17_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-044",
+    "count": 1,
+    "files": [
+      "photo_17_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_17_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_17_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-045",
+    "count": 1,
+    "files": [
+      "photo_17_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_17_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_17_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-047",
+    "count": 1,
+    "files": [
+      "photo_18_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_18_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_18_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-048",
+    "count": 1,
+    "files": [
+      "photo_18_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_18_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_18_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-049",
+    "count": 1,
+    "files": [
+      "photo_18_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_18_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_18_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-050",
+    "count": 1,
+    "files": [
+      "photo_18_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_18_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_18_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-051",
+    "count": 1,
+    "files": [
+      "photo_19_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_19_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_19_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-052",
+    "count": 1,
+    "files": [
+      "photo_19_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_19_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_19_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-053",
+    "count": 1,
+    "files": [
+      "photo_19_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_19_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_19_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-054",
+    "count": 1,
+    "files": [
+      "photo_19_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_19_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_19_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-055",
+    "count": 1,
+    "files": [
+      "photo_19_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_19_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_19_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-057",
+    "count": 1,
+    "files": [
+      "photo_1_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_1_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_1_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-058",
+    "count": 1,
+    "files": [
+      "photo_1_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_1_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_1_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-059",
+    "count": 1,
+    "files": [
+      "photo_1_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_1_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_1_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-060",
+    "count": 1,
+    "files": [
+      "photo_1_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_1_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_1_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-061",
+    "count": 1,
+    "files": [
+      "photo_1_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_1_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_1_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-062",
+    "count": 1,
+    "files": [
+      "photo_20_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_20_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_20_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-063",
+    "count": 1,
+    "files": [
+      "photo_20_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_20_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_20_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-064",
+    "count": 1,
+    "files": [
+      "photo_20_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_20_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_20_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-065",
+    "count": 1,
+    "files": [
+      "photo_20_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_20_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_20_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-066",
+    "count": 1,
+    "files": [
+      "photo_20_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_20_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_20_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-068",
+    "count": 1,
+    "files": [
+      "photo_21_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_21_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_21_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-069",
+    "count": 1,
+    "files": [
+      "photo_21_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_21_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_21_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-070",
+    "count": 1,
+    "files": [
+      "photo_21_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_21_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_21_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-071",
+    "count": 1,
+    "files": [
+      "photo_21_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_21_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_21_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-072",
+    "count": 1,
+    "files": [
+      "photo_22_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_22_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_22_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-073",
+    "count": 1,
+    "files": [
+      "photo_22_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_22_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_22_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-074",
+    "count": 1,
+    "files": [
+      "photo_22_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_22_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_22_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-075",
+    "count": 1,
+    "files": [
+      "photo_22_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_22_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_22_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-076",
+    "count": 1,
+    "files": [
+      "photo_22_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_22_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_22_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-077",
+    "count": 1,
+    "files": [
+      "photo_23_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_23_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_23_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-078",
+    "count": 1,
+    "files": [
+      "photo_23_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_23_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_23_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-079",
+    "count": 1,
+    "files": [
+      "photo_23_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_23_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_23_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-080",
+    "count": 1,
+    "files": [
+      "photo_23_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_23_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_23_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-081",
+    "count": 1,
+    "files": [
+      "photo_23_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_23_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_23_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-082",
+    "count": 1,
+    "files": [
+      "photo_24_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_24_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_24_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-083",
+    "count": 1,
+    "files": [
+      "photo_24_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_24_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_24_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-084",
+    "count": 1,
+    "files": [
+      "photo_24_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_24_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_24_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-085",
+    "count": 1,
+    "files": [
+      "photo_24_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_24_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_24_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-086",
+    "count": 1,
+    "files": [
+      "photo_24_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_24_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_24_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-087",
+    "count": 1,
+    "files": [
+      "photo_25_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_25_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_25_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-088",
+    "count": 1,
+    "files": [
+      "photo_25_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_25_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_25_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-089",
+    "count": 1,
+    "files": [
+      "photo_25_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_25_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_25_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-090",
+    "count": 1,
+    "files": [
+      "photo_25_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_25_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_25_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-091",
+    "count": 1,
+    "files": [
+      "photo_25_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_25_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_25_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-092",
+    "count": 1,
+    "files": [
+      "photo_26_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_26_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_26_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-093",
+    "count": 1,
+    "files": [
+      "photo_26_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_26_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_26_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-094",
+    "count": 1,
+    "files": [
+      "photo_26_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_26_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_26_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-095",
+    "count": 1,
+    "files": [
+      "photo_26_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_26_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_26_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-096",
+    "count": 1,
+    "files": [
+      "photo_26_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_26_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_26_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-097",
+    "count": 1,
+    "files": [
+      "photo_27_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_27_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_27_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-098",
+    "count": 1,
+    "files": [
+      "photo_27_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_27_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_27_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-099",
+    "count": 1,
+    "files": [
+      "photo_27_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_27_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_27_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-100",
+    "count": 1,
+    "files": [
+      "photo_27_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_27_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_27_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-101",
+    "count": 1,
+    "files": [
+      "photo_27_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_27_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_27_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-102",
+    "count": 1,
+    "files": [
+      "photo_28_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_28_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_28_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-103",
+    "count": 1,
+    "files": [
+      "photo_28_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_28_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_28_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-104",
+    "count": 1,
+    "files": [
+      "photo_28_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_28_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_28_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-105",
+    "count": 1,
+    "files": [
+      "photo_28_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_28_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_28_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-106",
+    "count": 1,
+    "files": [
+      "photo_29_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_29_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_29_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-107",
+    "count": 1,
+    "files": [
+      "photo_29_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_29_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_29_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-108",
+    "count": 1,
+    "files": [
+      "photo_29_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_29_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_29_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-109",
+    "count": 1,
+    "files": [
+      "photo_29_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_29_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_29_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-110",
+    "count": 1,
+    "files": [
+      "photo_29_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_29_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_29_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-112",
+    "count": 1,
+    "files": [
+      "photo_2_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_2_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_2_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-113",
+    "count": 1,
+    "files": [
+      "photo_2_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_2_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_2_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-114",
+    "count": 1,
+    "files": [
+      "photo_2_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_2_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_2_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-115",
+    "count": 1,
+    "files": [
+      "photo_2_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_2_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_2_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-116",
+    "count": 1,
+    "files": [
+      "photo_2_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_2_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_2_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-117",
+    "count": 1,
+    "files": [
+      "photo_30_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_30_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_30_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-118",
+    "count": 1,
+    "files": [
+      "photo_30_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_30_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_30_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-119",
+    "count": 1,
+    "files": [
+      "photo_30_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_30_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_30_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-120",
+    "count": 1,
+    "files": [
+      "photo_30_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_30_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_30_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-121",
+    "count": 1,
+    "files": [
+      "photo_30_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_30_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_30_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-122",
+    "count": 1,
+    "files": [
+      "photo_31_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_31_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_31_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-123",
+    "count": 1,
+    "files": [
+      "photo_31_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_31_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_31_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-124",
+    "count": 1,
+    "files": [
+      "photo_31_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_31_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_31_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-125",
+    "count": 1,
+    "files": [
+      "photo_31_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_31_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_31_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-126",
+    "count": 1,
+    "files": [
+      "photo_31_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_31_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_31_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-127",
+    "count": 1,
+    "files": [
+      "photo_32_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_32_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_32_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-128",
+    "count": 1,
+    "files": [
+      "photo_32_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_32_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_32_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-129",
+    "count": 1,
+    "files": [
+      "photo_32_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_32_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_32_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-130",
+    "count": 1,
+    "files": [
+      "photo_32_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_32_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_32_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-131",
+    "count": 1,
+    "files": [
+      "photo_32_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_32_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_32_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-132",
+    "count": 1,
+    "files": [
+      "photo_33_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_33_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_33_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-133",
+    "count": 1,
+    "files": [
+      "photo_33_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_33_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_33_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-134",
+    "count": 1,
+    "files": [
+      "photo_33_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_33_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_33_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-135",
+    "count": 1,
+    "files": [
+      "photo_33_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_33_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_33_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-136",
+    "count": 1,
+    "files": [
+      "photo_33_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_33_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_33_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-137",
+    "count": 1,
+    "files": [
+      "photo_34_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_34_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_34_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-138",
+    "count": 1,
+    "files": [
+      "photo_34_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_34_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_34_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-139",
+    "count": 1,
+    "files": [
+      "photo_34_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_34_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_34_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-140",
+    "count": 1,
+    "files": [
+      "photo_34_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_34_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_34_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-141",
+    "count": 1,
+    "files": [
+      "photo_34_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_34_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_34_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-142",
+    "count": 1,
+    "files": [
+      "photo_35_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_35_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_35_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-143",
+    "count": 1,
+    "files": [
+      "photo_35_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_35_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_35_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-144",
+    "count": 1,
+    "files": [
+      "photo_35_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_35_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_35_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-145",
+    "count": 1,
+    "files": [
+      "photo_35_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_35_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_35_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-146",
+    "count": 1,
+    "files": [
+      "photo_35_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_35_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_35_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-147",
+    "count": 1,
+    "files": [
+      "photo_36_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_36_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_36_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-148",
+    "count": 1,
+    "files": [
+      "photo_36_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_36_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_36_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-149",
+    "count": 1,
+    "files": [
+      "photo_36_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_36_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_36_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-150",
+    "count": 1,
+    "files": [
+      "photo_36_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_36_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_36_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-151",
+    "count": 1,
+    "files": [
+      "photo_36_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_36_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_36_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-152",
+    "count": 1,
+    "files": [
+      "photo_37_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_37_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_37_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-153",
+    "count": 1,
+    "files": [
+      "photo_37_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_37_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_37_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-154",
+    "count": 1,
+    "files": [
+      "photo_37_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_37_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_37_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-155",
+    "count": 1,
+    "files": [
+      "photo_37_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_37_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_37_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-156",
+    "count": 1,
+    "files": [
+      "photo_37_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_37_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_37_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-157",
+    "count": 1,
+    "files": [
+      "photo_38_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_38_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_38_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-158",
+    "count": 1,
+    "files": [
+      "photo_38_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_38_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_38_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-159",
+    "count": 1,
+    "files": [
+      "photo_38_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_38_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_38_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-160",
+    "count": 1,
+    "files": [
+      "photo_38_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_38_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_38_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-161",
+    "count": 1,
+    "files": [
+      "photo_38_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_38_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_38_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-162",
+    "count": 1,
+    "files": [
+      "photo_39_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_39_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_39_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-163",
+    "count": 1,
+    "files": [
+      "photo_39_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_39_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_39_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-164",
+    "count": 1,
+    "files": [
+      "photo_39_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_39_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_39_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-165",
+    "count": 1,
+    "files": [
+      "photo_39_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_39_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_39_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-166",
+    "count": 1,
+    "files": [
+      "photo_39_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_39_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_39_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-167",
+    "count": 1,
+    "files": [
+      "photo_3_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_3_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_3_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-168",
+    "count": 1,
+    "files": [
+      "photo_3_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_3_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_3_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-169",
+    "count": 1,
+    "files": [
+      "photo_3_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_3_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_3_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-170",
+    "count": 1,
+    "files": [
+      "photo_3_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_3_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_3_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-171",
+    "count": 1,
+    "files": [
+      "photo_3_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_3_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_3_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-172",
+    "count": 1,
+    "files": [
+      "photo_40_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_40_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_40_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-173",
+    "count": 1,
+    "files": [
+      "photo_40_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_40_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_40_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-174",
+    "count": 1,
+    "files": [
+      "photo_40_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_40_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_40_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-175",
+    "count": 1,
+    "files": [
+      "photo_40_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_40_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_40_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-176",
+    "count": 1,
+    "files": [
+      "photo_41_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_41_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_41_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-177",
+    "count": 1,
+    "files": [
+      "photo_41_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_41_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_41_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-178",
+    "count": 1,
+    "files": [
+      "photo_41_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_41_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_41_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-179",
+    "count": 1,
+    "files": [
+      "photo_41_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_41_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_41_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-180",
+    "count": 1,
+    "files": [
+      "photo_41_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_41_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_41_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-181",
+    "count": 1,
+    "files": [
+      "photo_42_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_42_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_42_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-182",
+    "count": 1,
+    "files": [
+      "photo_42_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_42_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_42_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-183",
+    "count": 1,
+    "files": [
+      "photo_42_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_42_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_42_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-184",
+    "count": 1,
+    "files": [
+      "photo_42_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_42_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_42_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-185",
+    "count": 1,
+    "files": [
+      "photo_42_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_42_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_42_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-186",
+    "count": 1,
+    "files": [
+      "photo_43_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_43_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_43_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-187",
+    "count": 1,
+    "files": [
+      "photo_43_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_43_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_43_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-188",
+    "count": 1,
+    "files": [
+      "photo_43_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_43_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_43_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-189",
+    "count": 1,
+    "files": [
+      "photo_43_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_43_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_43_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-190",
+    "count": 1,
+    "files": [
+      "photo_43_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_43_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_43_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-191",
+    "count": 1,
+    "files": [
+      "photo_44_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_44_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_44_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-192",
+    "count": 1,
+    "files": [
+      "photo_44_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_44_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_44_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-193",
+    "count": 1,
+    "files": [
+      "photo_44_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_44_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_44_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-194",
+    "count": 1,
+    "files": [
+      "photo_44_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_44_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_44_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-195",
+    "count": 1,
+    "files": [
+      "photo_44_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_44_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_44_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-196",
+    "count": 1,
+    "files": [
+      "photo_45_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_45_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_45_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-197",
+    "count": 1,
+    "files": [
+      "photo_45_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_45_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_45_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-198",
+    "count": 1,
+    "files": [
+      "photo_45_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_45_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_45_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-199",
+    "count": 1,
+    "files": [
+      "photo_45_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_45_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_45_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-200",
+    "count": 1,
+    "files": [
+      "photo_45_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_45_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_45_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-201",
+    "count": 1,
+    "files": [
+      "photo_46_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_46_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_46_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-202",
+    "count": 1,
+    "files": [
+      "photo_46_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_46_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_46_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-203",
+    "count": 1,
+    "files": [
+      "photo_46_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_46_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_46_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-204",
+    "count": 1,
+    "files": [
+      "photo_46_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_46_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_46_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-205",
+    "count": 1,
+    "files": [
+      "photo_46_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_46_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_46_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-206",
+    "count": 1,
+    "files": [
+      "photo_47_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_47_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_47_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-207",
+    "count": 1,
+    "files": [
+      "photo_47_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_47_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_47_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-208",
+    "count": 1,
+    "files": [
+      "photo_47_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_47_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_47_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-209",
+    "count": 1,
+    "files": [
+      "photo_47_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_47_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_47_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-210",
+    "count": 1,
+    "files": [
+      "photo_47_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_47_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_47_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-211",
+    "count": 1,
+    "files": [
+      "photo_48_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_48_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_48_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-212",
+    "count": 1,
+    "files": [
+      "photo_48_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_48_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_48_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-213",
+    "count": 1,
+    "files": [
+      "photo_48_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_48_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_48_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-214",
+    "count": 1,
+    "files": [
+      "photo_48_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_48_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_48_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-215",
+    "count": 1,
+    "files": [
+      "photo_48_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_48_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_48_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-216",
+    "count": 1,
+    "files": [
+      "photo_49_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_49_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_49_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-217",
+    "count": 1,
+    "files": [
+      "photo_49_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_49_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_49_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-218",
+    "count": 1,
+    "files": [
+      "photo_49_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_49_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_49_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-219",
+    "count": 1,
+    "files": [
+      "photo_49_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_49_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_49_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-220",
+    "count": 1,
+    "files": [
+      "photo_49_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_49_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_49_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-222",
+    "count": 1,
+    "files": [
+      "photo_4_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_4_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_4_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-223",
+    "count": 1,
+    "files": [
+      "photo_4_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_4_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_4_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-224",
+    "count": 1,
+    "files": [
+      "photo_4_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_4_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_4_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-225",
+    "count": 1,
+    "files": [
+      "photo_4_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_4_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_4_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-226",
+    "count": 1,
+    "files": [
+      "photo_4_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_4_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_4_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-227",
+    "count": 1,
+    "files": [
+      "photo_50_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_50_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_50_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-228",
+    "count": 1,
+    "files": [
+      "photo_50_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_50_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_50_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-229",
+    "count": 1,
+    "files": [
+      "photo_50_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_50_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_50_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-230",
+    "count": 1,
+    "files": [
+      "photo_50_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_50_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_50_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-231",
+    "count": 1,
+    "files": [
+      "photo_50_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_50_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_50_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-232",
+    "count": 1,
+    "files": [
+      "photo_51_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_51_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_51_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-233",
+    "count": 1,
+    "files": [
+      "photo_51_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_51_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_51_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-235",
+    "count": 1,
+    "files": [
+      "photo_51_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_51_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_51_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-236",
+    "count": 1,
+    "files": [
+      "photo_51_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_51_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_51_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-237",
+    "count": 1,
+    "files": [
+      "photo_52_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_52_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_52_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-238",
+    "count": 1,
+    "files": [
+      "photo_52_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_52_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_52_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-239",
+    "count": 1,
+    "files": [
+      "photo_52_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_52_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_52_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-240",
+    "count": 1,
+    "files": [
+      "photo_52_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_52_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_52_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-241",
+    "count": 1,
+    "files": [
+      "photo_53_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_53_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_53_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-242",
+    "count": 1,
+    "files": [
+      "photo_53_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_53_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_53_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-243",
+    "count": 1,
+    "files": [
+      "photo_53_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_53_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_53_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-244",
+    "count": 1,
+    "files": [
+      "photo_53_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_53_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_53_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-245",
+    "count": 1,
+    "files": [
+      "photo_54_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_54_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_54_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-246",
+    "count": 1,
+    "files": [
+      "photo_54_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_54_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_54_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-247",
+    "count": 1,
+    "files": [
+      "photo_54_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_54_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_54_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-248",
+    "count": 1,
+    "files": [
+      "photo_54_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_54_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_54_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-249",
+    "count": 1,
+    "files": [
+      "photo_55_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_55_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_55_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-250",
+    "count": 1,
+    "files": [
+      "photo_55_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_55_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_55_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-251",
+    "count": 1,
+    "files": [
+      "photo_55_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_55_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_55_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-252",
+    "count": 1,
+    "files": [
+      "photo_55_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_55_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_55_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-253",
+    "count": 1,
+    "files": [
+      "photo_56_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_56_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_56_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-254",
+    "count": 1,
+    "files": [
+      "photo_56_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_56_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_56_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-255",
+    "count": 1,
+    "files": [
+      "photo_56_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_56_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_56_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-256",
+    "count": 1,
+    "files": [
+      "photo_56_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_56_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_56_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-257",
+    "count": 1,
+    "files": [
+      "photo_57_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_57_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_57_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-258",
+    "count": 1,
+    "files": [
+      "photo_57_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_57_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_57_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-259",
+    "count": 1,
+    "files": [
+      "photo_57_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_57_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_57_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-260",
+    "count": 1,
+    "files": [
+      "photo_57_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_57_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_57_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-261",
+    "count": 1,
+    "files": [
+      "photo_58_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_58_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_58_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-262",
+    "count": 1,
+    "files": [
+      "photo_58_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_58_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_58_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-263",
+    "count": 1,
+    "files": [
+      "photo_58_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_58_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_58_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-264",
+    "count": 1,
+    "files": [
+      "photo_58_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_58_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_58_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-265",
+    "count": 1,
+    "files": [
+      "photo_59_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_59_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_59_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-266",
+    "count": 1,
+    "files": [
+      "photo_59_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_59_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_59_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-267",
+    "count": 1,
+    "files": [
+      "photo_59_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_59_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_59_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-268",
+    "count": 1,
+    "files": [
+      "photo_59_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_59_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_59_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-269",
+    "count": 1,
+    "files": [
+      "photo_5_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_5_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_5_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-270",
+    "count": 1,
+    "files": [
+      "photo_5_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_5_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_5_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-271",
+    "count": 1,
+    "files": [
+      "photo_5_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_5_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_5_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-272",
+    "count": 1,
+    "files": [
+      "photo_5_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_5_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_5_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-273",
+    "count": 1,
+    "files": [
+      "photo_5_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_5_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_5_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-274",
+    "count": 1,
+    "files": [
+      "photo_60_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_60_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_60_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-275",
+    "count": 1,
+    "files": [
+      "photo_60_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_60_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_60_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-276",
+    "count": 1,
+    "files": [
+      "photo_60_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_60_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_60_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-277",
+    "count": 1,
+    "files": [
+      "photo_60_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_60_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_60_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-278",
+    "count": 1,
+    "files": [
+      "photo_61_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_61_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_61_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-279",
+    "count": 1,
+    "files": [
+      "photo_61_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_61_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_61_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-280",
+    "count": 1,
+    "files": [
+      "photo_61_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_61_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_61_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-281",
+    "count": 1,
+    "files": [
+      "photo_61_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_61_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_61_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-282",
+    "count": 1,
+    "files": [
+      "photo_62_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_62_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_62_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-283",
+    "count": 1,
+    "files": [
+      "photo_62_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_62_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_62_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-285",
+    "count": 1,
+    "files": [
+      "photo_62_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_62_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_62_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-286",
+    "count": 1,
+    "files": [
+      "photo_62_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_62_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_62_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-287",
+    "count": 1,
+    "files": [
+      "photo_63_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_63_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_63_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-288",
+    "count": 1,
+    "files": [
+      "photo_63_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_63_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_63_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-290",
+    "count": 1,
+    "files": [
+      "photo_63_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_63_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_63_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-291",
+    "count": 1,
+    "files": [
+      "photo_63_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_63_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_63_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-292",
+    "count": 1,
+    "files": [
+      "photo_64_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_64_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_64_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-293",
+    "count": 1,
+    "files": [
+      "photo_64_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_64_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_64_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-295",
+    "count": 1,
+    "files": [
+      "photo_64_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_64_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_64_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-296",
+    "count": 1,
+    "files": [
+      "photo_64_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_64_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_64_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-297",
+    "count": 1,
+    "files": [
+      "photo_65_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_65_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_65_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-298",
+    "count": 1,
+    "files": [
+      "photo_65_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_65_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_65_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-299",
+    "count": 1,
+    "files": [
+      "photo_65_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_65_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_65_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-300",
+    "count": 1,
+    "files": [
+      "photo_65_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_65_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_65_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-301",
+    "count": 1,
+    "files": [
+      "photo_66_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_66_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_66_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-302",
+    "count": 1,
+    "files": [
+      "photo_66_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_66_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_66_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-304",
+    "count": 1,
+    "files": [
+      "photo_66_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_66_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_66_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-305",
+    "count": 1,
+    "files": [
+      "photo_66_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_66_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_66_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-306",
+    "count": 1,
+    "files": [
+      "photo_67_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_67_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_67_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-307",
+    "count": 1,
+    "files": [
+      "photo_67_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_67_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_67_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-309",
+    "count": 1,
+    "files": [
+      "photo_67_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_67_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_67_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-310",
+    "count": 1,
+    "files": [
+      "photo_67_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_67_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_67_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-311",
+    "count": 1,
+    "files": [
+      "photo_68_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_68_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_68_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-312",
+    "count": 1,
+    "files": [
+      "photo_68_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_68_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_68_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-314",
+    "count": 1,
+    "files": [
+      "photo_68_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_68_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_68_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-315",
+    "count": 1,
+    "files": [
+      "photo_68_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_68_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_68_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-316",
+    "count": 1,
+    "files": [
+      "photo_69_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_69_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_69_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-317",
+    "count": 1,
+    "files": [
+      "photo_69_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_69_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_69_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-318",
+    "count": 1,
+    "files": [
+      "photo_69_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_69_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_69_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-319",
+    "count": 1,
+    "files": [
+      "photo_69_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_69_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_69_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-320",
+    "count": 1,
+    "files": [
+      "photo_6_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_6_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_6_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-321",
+    "count": 1,
+    "files": [
+      "photo_6_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_6_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_6_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-322",
+    "count": 1,
+    "files": [
+      "photo_6_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_6_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_6_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-323",
+    "count": 1,
+    "files": [
+      "photo_6_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_6_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_6_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-324",
+    "count": 1,
+    "files": [
+      "photo_6_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_6_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_6_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-325",
+    "count": 1,
+    "files": [
+      "photo_6_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_6_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_6_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-326",
+    "count": 1,
+    "files": [
+      "photo_70_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_70_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_70_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-327",
+    "count": 1,
+    "files": [
+      "photo_70_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_70_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_70_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-328",
+    "count": 1,
+    "files": [
+      "photo_70_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_70_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_70_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-329",
+    "count": 1,
+    "files": [
+      "photo_71_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_71_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_71_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-330",
+    "count": 1,
+    "files": [
+      "photo_71_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_71_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_71_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-331",
+    "count": 1,
+    "files": [
+      "photo_71_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_71_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_71_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-332",
+    "count": 1,
+    "files": [
+      "photo_72_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_72_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_72_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-333",
+    "count": 1,
+    "files": [
+      "photo_72_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_72_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_72_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-334",
+    "count": 1,
+    "files": [
+      "photo_72_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_72_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_72_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-335",
+    "count": 1,
+    "files": [
+      "photo_73_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_73_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_73_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-336",
+    "count": 1,
+    "files": [
+      "photo_73_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_73_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_73_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-337",
+    "count": 1,
+    "files": [
+      "photo_73_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_73_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_73_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-338",
+    "count": 1,
+    "files": [
+      "photo_74_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_74_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_74_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-339",
+    "count": 1,
+    "files": [
+      "photo_74_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_74_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_74_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-340",
+    "count": 1,
+    "files": [
+      "photo_74_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_74_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_74_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-341",
+    "count": 1,
+    "files": [
+      "photo_75_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_75_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_75_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-343",
+    "count": 1,
+    "files": [
+      "photo_75_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_75_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_75_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-344",
+    "count": 1,
+    "files": [
+      "photo_76_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_76_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_76_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-345",
+    "count": 1,
+    "files": [
+      "photo_76_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_76_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_76_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-346",
+    "count": 1,
+    "files": [
+      "photo_76_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_76_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_76_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-347",
+    "count": 1,
+    "files": [
+      "photo_77_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_77_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_77_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-348",
+    "count": 1,
+    "files": [
+      "photo_77_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_77_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_77_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-349",
+    "count": 1,
+    "files": [
+      "photo_77_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_77_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_77_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-350",
+    "count": 1,
+    "files": [
+      "photo_78_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_78_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_78_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-351",
+    "count": 1,
+    "files": [
+      "photo_78_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_78_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_78_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-352",
+    "count": 1,
+    "files": [
+      "photo_78_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_78_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_78_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-353",
+    "count": 1,
+    "files": [
+      "photo_79_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_79_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_79_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-354",
+    "count": 1,
+    "files": [
+      "photo_79_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_79_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_79_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-355",
+    "count": 1,
+    "files": [
+      "photo_79_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_79_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_79_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-356",
+    "count": 1,
+    "files": [
+      "photo_7_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_7_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_7_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-357",
+    "count": 1,
+    "files": [
+      "photo_7_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_7_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_7_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-358",
+    "count": 1,
+    "files": [
+      "photo_7_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_7_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_7_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-359",
+    "count": 1,
+    "files": [
+      "photo_7_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_7_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_7_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-360",
+    "count": 1,
+    "files": [
+      "photo_7_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_7_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_7_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-361",
+    "count": 1,
+    "files": [
+      "photo_7_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_7_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_7_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-362",
+    "count": 1,
+    "files": [
+      "photo_80_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_80_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_80_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-363",
+    "count": 1,
+    "files": [
+      "photo_80_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_80_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_80_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-364",
+    "count": 1,
+    "files": [
+      "photo_80_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_80_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_80_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-365",
+    "count": 1,
+    "files": [
+      "photo_81_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_81_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_81_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-366",
+    "count": 1,
+    "files": [
+      "photo_81_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_81_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_81_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-367",
+    "count": 1,
+    "files": [
+      "photo_81_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_81_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_81_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-368",
+    "count": 1,
+    "files": [
+      "photo_82_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_82_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_82_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-369",
+    "count": 1,
+    "files": [
+      "photo_82_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_82_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_82_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-370",
+    "count": 1,
+    "files": [
+      "photo_83_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_83_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_83_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-371",
+    "count": 1,
+    "files": [
+      "photo_83_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_83_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_83_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-372",
+    "count": 1,
+    "files": [
+      "photo_83_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_83_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_83_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-373",
+    "count": 1,
+    "files": [
+      "photo_84_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_84_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_84_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-374",
+    "count": 1,
+    "files": [
+      "photo_84_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_84_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_84_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-375",
+    "count": 1,
+    "files": [
+      "photo_84_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_84_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_84_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-376",
+    "count": 1,
+    "files": [
+      "photo_85_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_85_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_85_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-377",
+    "count": 1,
+    "files": [
+      "photo_85_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_85_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_85_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-378",
+    "count": 1,
+    "files": [
+      "photo_85_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_85_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_85_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-379",
+    "count": 1,
+    "files": [
+      "photo_86_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_86_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_86_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-380",
+    "count": 1,
+    "files": [
+      "photo_86_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_86_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_86_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-381",
+    "count": 1,
+    "files": [
+      "photo_86_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_86_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_86_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-382",
+    "count": 1,
+    "files": [
+      "photo_87_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_87_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_87_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-383",
+    "count": 1,
+    "files": [
+      "photo_87_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_87_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_87_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-384",
+    "count": 1,
+    "files": [
+      "photo_88_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_88_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_88_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-385",
+    "count": 1,
+    "files": [
+      "photo_88_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_88_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_88_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-386",
+    "count": 1,
+    "files": [
+      "photo_89_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_89_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_89_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-387",
+    "count": 1,
+    "files": [
+      "photo_89_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_89_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_89_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-388",
+    "count": 1,
+    "files": [
+      "photo_8_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_8_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_8_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-389",
+    "count": 1,
+    "files": [
+      "photo_8_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_8_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_8_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-390",
+    "count": 1,
+    "files": [
+      "photo_8_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_8_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_8_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-391",
+    "count": 1,
+    "files": [
+      "photo_8_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_8_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_8_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-392",
+    "count": 1,
+    "files": [
+      "photo_8_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_8_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_8_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-393",
+    "count": 1,
+    "files": [
+      "photo_8_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_8_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_8_2026-08-23_17-35-05.jpg"
+  },
+  {
+    "id": "cluster-394",
+    "count": 1,
+    "files": [
+      "photo_90_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_90_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_90_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-395",
+    "count": 1,
+    "files": [
+      "photo_90_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_90_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_90_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-396",
+    "count": 1,
+    "files": [
+      "photo_91_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_91_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_91_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-397",
+    "count": 1,
+    "files": [
+      "photo_91_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_91_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_91_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-398",
+    "count": 1,
+    "files": [
+      "photo_92_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_92_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_92_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-399",
+    "count": 1,
+    "files": [
+      "photo_92_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_92_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_92_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-400",
+    "count": 1,
+    "files": [
+      "photo_93_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_93_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_93_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-401",
+    "count": 1,
+    "files": [
+      "photo_94_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_94_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_94_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-402",
+    "count": 1,
+    "files": [
+      "photo_94_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_94_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_94_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-403",
+    "count": 1,
+    "files": [
+      "photo_95_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_95_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_95_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-404",
+    "count": 1,
+    "files": [
+      "photo_95_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_95_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_95_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-405",
+    "count": 1,
+    "files": [
+      "photo_96_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_96_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_96_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-406",
+    "count": 1,
+    "files": [
+      "photo_96_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_96_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_96_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-407",
+    "count": 1,
+    "files": [
+      "photo_97_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_97_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_97_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-408",
+    "count": 1,
+    "files": [
+      "photo_97_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_97_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_97_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-409",
+    "count": 1,
+    "files": [
+      "photo_98_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_98_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_98_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-410",
+    "count": 1,
+    "files": [
+      "photo_99_2026-08-23_17-33-10.jpg"
+    ],
+    "best": "photo_99_2026-08-23_17-33-10.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_99_2026-08-23_17-33-10.jpg"
+  },
+  {
+    "id": "cluster-411",
+    "count": 1,
+    "files": [
+      "photo_9_2026-08-23_17-34-16.jpg"
+    ],
+    "best": "photo_9_2026-08-23_17-34-16.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_9_2026-08-23_17-34-16.jpg"
+  },
+  {
+    "id": "cluster-412",
+    "count": 1,
+    "files": [
+      "photo_9_2026-08-23_17-34-27.jpg"
+    ],
+    "best": "photo_9_2026-08-23_17-34-27.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_9_2026-08-23_17-34-27.jpg"
+  },
+  {
+    "id": "cluster-413",
+    "count": 1,
+    "files": [
+      "photo_9_2026-08-23_17-34-51.jpg"
+    ],
+    "best": "photo_9_2026-08-23_17-34-51.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_9_2026-08-23_17-34-51.jpg"
+  },
+  {
+    "id": "cluster-414",
+    "count": 1,
+    "files": [
+      "photo_9_2026-08-23_17-34-55.jpg"
+    ],
+    "best": "photo_9_2026-08-23_17-34-55.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_9_2026-08-23_17-34-55.jpg"
+  },
+  {
+    "id": "cluster-415",
+    "count": 1,
+    "files": [
+      "photo_9_2026-08-23_17-35-05.jpg"
+    ],
+    "best": "photo_9_2026-08-23_17-35-05.jpg",
+    "bestPath": "C:\\Users\\ransomeware\\Projects\\valentin\\projectphotos\\photo_9_2026-08-23_17-35-05.jpg"
+  }
+]
