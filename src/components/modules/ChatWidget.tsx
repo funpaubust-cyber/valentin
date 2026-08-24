@@ -238,37 +238,24 @@ function ChatWidgetInner() {
   const closeChat = useCallback(() => {
     setOpen(false);
     setError("");
+    try {
+      widgetRef.current?.minimize();
+    } catch {
+      /* виджет уже закрыт */
+    }
   }, []);
 
   return (
     <>
       <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open || Boolean(error)} />
 
-      {open && !error ? (
-        <div className="vk-chat-chrome overflow-hidden rounded-t-[1.35rem] border border-b-0 border-brass/25 bg-wood shadow-[0_24px_60px_rgba(40,24,16,0.28)]">
-          <div className="flex items-center justify-between gap-3 px-4 py-3">
-            <div>
-              <p className="font-serif text-lg text-milk">Чат ВКонтакте</p>
-              <p className="text-xs text-milk/70">салон Valentin</p>
-            </div>
-            <button
-              type="button"
-              onClick={closeChat}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-milk/20 text-milk transition hover:bg-milk/10"
-              aria-label="Закрыть чат"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          </div>
-          {loading ? (
-            <div className="bg-milk px-4 py-6 text-sm text-graphite/55">
-              Подключаем сообщения сообщества…
-            </div>
-          ) : null}
-        </div>
-      ) : null}
-
       <div className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-50 flex flex-col items-end gap-3 sm:right-6">
+        {open && loading ? (
+          <div className="rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-3 text-sm text-graphite/55 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
+            Подключаем чат ВК…
+          </div>
+        ) : null}
+
         {open && error ? (
           <div className="w-[min(24rem,calc(100vw-2rem))] space-y-3 rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-5 text-sm leading-relaxed text-graphite/70 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
             <p>{error}</p>

@@ -139,13 +139,15 @@ img {
   right: 1rem;
   bottom: 5.75rem;
   z-index: 0;
-  width: min(24rem, calc(100vw - 2rem));
-  height: min(32.5rem, calc(100dvh - 10.5rem));
+  width: min(22rem, calc(100vw - 2rem));
+  height: min(34rem, calc(100dvh - 8.5rem));
   overflow: hidden;
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  border-radius: 0 0 1.35rem 1.35rem;
+  border-radius: 1.1rem;
+  box-shadow: 0 24px 60px rgba(40, 24, 16, 0.22);
+  background: #fff;
 }
 
 @media (min-width: 640px) {
@@ -169,40 +171,23 @@ html.vk-chat-open .vk-chat-host {
   max-width: none !important;
   max-height: none !important;
   border: 0 !important;
-  background: #faf9f5 !important;
+  background: #fff !important;
 }
 
-.vk-chat-chrome {
-  --vk-chat-bottom: 5.75rem;
-  --vk-chat-header: 3.6rem;
-  --vk-chat-frame-h: min(32.5rem, calc(100dvh - 10.5rem));
-  position: fixed;
-  right: 1rem;
-  bottom: calc(var(--vk-chat-bottom) + var(--vk-chat-frame-h));
-  z-index: 81;
-  width: min(24rem, calc(100vw - 2rem));
-}
-
-@media (min-width: 640px) {
-  .vk-chat-chrome {
-    right: 1.5rem;
-  }
-}
-
-/* ВК иногда вешает iframe прямо в body — тогда ставим его на место панели */
+/* ВК иногда вешает iframe прямо в body — совмещаем с местом хоста */
 html.vk-chat-open body > iframe[src*="community_messages"] {
   position: fixed !important;
   right: 1rem !important;
   bottom: 5.75rem !important;
-  width: min(24rem, calc(100vw - 2rem)) !important;
-  height: min(32.5rem, calc(100dvh - 10.5rem)) !important;
+  width: min(22rem, calc(100vw - 2rem)) !important;
+  height: min(34rem, calc(100dvh - 8.5rem)) !important;
   max-width: none !important;
   max-height: none !important;
   z-index: 80 !important;
   border: 0 !important;
-  border-radius: 0 0 1.35rem 1.35rem !important;
-  box-shadow: none !important;
-  background: #faf9f5 !important;
+  border-radius: 1.1rem !important;
+  box-shadow: 0 24px 60px rgba(40, 24, 16, 0.22) !important;
+  background: #fff !important;
   opacity: 1 !important;
   pointer-events: auto !important;
   display: block !important;
