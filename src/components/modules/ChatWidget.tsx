@@ -1,316 +1,160 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
+import { MessageCircle, Phone, X } from "lucide-react";
 import {
-  Component,
-  type ErrorInfo,
-  type ReactNode,
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
-import { MessageCircle, X } from "lucide-react";
-import { SALON_PHONE_HREF } from "@/data/salon";
+  DEFAULT_WHATSAPP_TEXT,
+  SALON_HOURS_LABEL,
+  SALON_PHONE,
+  SALON_PHONE_HREF,
+  openVkMessenger,
+  whatsappUrl,
+} from "@/data/salon";
 
-const VK_GROUP_ID = 143735775;
-const SCRIPT_ID = "vk-openapi";
-const HOST_ID = "vk_community_messages";
-
-type VkWidget = {
-  expand: (cb?: () => void) => void;
-  minimize: (cb?: () => void) => void;
-  destroy?: (cb?: () => void) => void;
-};
-
-type VkApi = {
-  Widgets: {
-    CommunityMessages: (
-      el: string,
-      groupId: number,
-      options?: Record<string, unknown>,
-    ) => VkWidget;
-  };
-};
-
-declare global {
-  interface Window {
-    VK?: VkApi;
-  }
-}
-
-function loadOpenApi(): Promise<VkApi> {
-  if (window.VK?.Widgets) return Promise.resolve(window.VK);
-
-  return new Promise((resolve, reject) => {
-    const existing = document.getElementById(SCRIPT_ID) as HTMLScriptElement | null;
-    if (existing) {
-      existing.addEventListener("load", () => {
-        if (window.VK?.Widgets) resolve(window.VK);
-        else reject(new Error("VK Open API не загрузился"));
-      });
-      existing.addEventListener("error", () =>
-        reject(new Error("Не удалось загрузить VK Open API")),
-      );
-      return;
-    }
-
-    const script = document.createElement("script");
-    script.id = SCRIPT_ID;
-    script.src = "https://vk.com/js/api/openapi.js?169";
-    script.async = true;
-    script.onload = () => {
-      if (window.VK?.Widgets) resolve(window.VK);
-      else reject(new Error("VK Open API не загрузился"));
-    };
-    script.onerror = () => reject(new Error("Не удалось загрузить VK Open API"));
-    document.body.appendChild(script);
-  });
-}
-
-function setChatOpenClass(open: boolean) {
-  document.documentElement.classList.toggle("vk-chat-open", open);
-}
-
-function isDomWidgetError(text: string) {
-  return /removeChild|insertBefore|NotFoundError|The node to be removed/i.test(
-    text,
+function VkIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden className={className} fill="currentColor">
+      <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.391 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.862-.525-2.049-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4.03 8.57 4.03 8.096c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.863 2.049 2.303 3.847 2.896 3.847.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.27-1.422 2.181-3.626 2.181-3.626.119-.254.322-.491.763-.491h1.744c.525 0 .644.271.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.049.17.49-.085.744-.576.744z" />
+    </svg>
   );
 }
 
-/** ВК двигает iframe сам — без этого React падает белым экраном при закрытии. */
-function useVkDomGuard() {
-  useEffect(() => {
-    const proto = Node.prototype;
-    const removeChild = proto.removeChild;
-    const insertBefore = proto.insertBefore;
-
-    proto.removeChild = function <T extends Node>(this: Node, child: T): T {
-      try {
-        if (child.parentNode !== this) return child;
-        return removeChild.call(this, child) as T;
-      } catch {
-        return child;
-      }
-    };
-
-    proto.insertBefore = function <T extends Node>(
-      this: Node,
-      newNode: T,
-      refNode: Node | null,
-    ): T {
-      try {
-        if (refNode && refNode.parentNode !== this) {
-          return this.appendChild(newNode) as T;
-        }
-        return insertBefore.call(this, newNode, refNode) as T;
-      } catch {
-        return newNode;
-      }
-    };
-
-    const onError = (event: ErrorEvent) => {
-      const text = `${event.message} ${event.error ?? ""}`;
-      if (!isDomWidgetError(text)) return;
-      event.preventDefault();
-      event.stopImmediatePropagation();
-    };
-
-    window.addEventListener("error", onError, true);
-
-    return () => {
-      proto.removeChild = removeChild;
-      proto.insertBefore = insertBefore;
-      window.removeEventListener("error", onError, true);
-    };
-  }, []);
-}
-
-class ChatErrorBoundary extends Component<
-  { children: ReactNode },
-  { failed: boolean }
-> {
-  state = { failed: false };
-
-  static getDerivedStateFromError() {
-    return { failed: true };
-  }
-
-  componentDidCatch(error: Error, info: ErrorInfo) {
-    if (process.env.NODE_ENV !== "production") {
-      console.warn("ChatWidget recovered", error, info.componentStack);
-    }
-  }
-
-  render() {
-    if (this.state.failed) {
-      return (
-        <div className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-50 sm:right-6">
-          <a
-            href={SALON_PHONE_HREF}
-            className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-wood text-milk shadow-[0_16px_40px_rgba(40,24,16,0.28)]"
-            aria-label="Позвонить в салон"
-          >
-            <MessageCircle className="h-6 w-6" />
-          </a>
-        </div>
-      );
-    }
-
-    return this.props.children;
-  }
-}
-
-function ChatWidgetInner() {
-  const widgetRef = useRef<VkWidget | null>(null);
-  const bootingRef = useRef(false);
-  const [open, setOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [hint, setHint] = useState(true);
-  const [error, setError] = useState("");
-
-  useVkDomGuard();
-
-  useEffect(() => {
-    setChatOpenClass(open && !error);
-    return () => setChatOpenClass(false);
-  }, [open, error]);
-
-  const bootWidget = useCallback(async () => {
-    if (widgetRef.current || bootingRef.current) return;
-    bootingRef.current = true;
-    setLoading(true);
-    setError("");
-
-    try {
-      const vk = await loadOpenApi();
-      if (!document.getElementById(HOST_ID)) {
-        throw new Error("Нет контейнера виджета ВК");
-      }
-
-      widgetRef.current = vk.Widgets.CommunityMessages(HOST_ID, VK_GROUP_ID, {
-        expanded: 1,
-        widgetPosition: "right",
-        buttonType: "no_button",
-        disableButtonTooltip: 1,
-        welcomeScreen: 0,
-        // Не ставим свой error на onCanNotWrite: у гостя виджет сам рисует «Войти».
-        onMinimize: () => {
-          setOpen(false);
-        },
-      });
-    } catch {
-      widgetRef.current = null;
-      const host = document.getElementById(HOST_ID);
-      if (host) host.innerHTML = "";
-      setError(
-        "Не удалось загрузить чат на странице. Позвоните +7 (920) 200-51-24.",
-      );
-    } finally {
-      bootingRef.current = false;
-      setLoading(false);
-    }
-  }, []);
-
-  const openChat = useCallback(() => {
-    setHint(false);
-    setOpen(true);
-    setError("");
-
-    const host = document.getElementById(HOST_ID);
-    const frameAlive = Boolean(host?.querySelector("iframe"));
-    if (!frameAlive) {
-      widgetRef.current = null;
-      if (host) host.innerHTML = "";
-    }
-
-    if (widgetRef.current) {
-      try {
-        widgetRef.current.expand();
-      } catch {
-        /* уже открыт */
-      }
-      return;
-    }
-
-    void bootWidget();
-  }, [bootWidget]);
-
-  const closeChat = useCallback(() => {
-    setOpen(false);
-    setError("");
-    try {
-      widgetRef.current?.minimize();
-    } catch {
-      /* виджет уже закрыт */
-    }
-  }, []);
-
+function WhatsAppIcon({ className }: { className?: string }) {
   return (
-    <>
-      {/* HOST_ID — ВК рендерит iframe сюда (или в body, тогда CSS перепозиционирует) */}
-      <div id={HOST_ID} className="vk-chat-host" aria-hidden={!open} />
-
-      {/* Шапка в стиле сайта — fixed с теми же координатами, что и host, прямо над ним */}
-      {open && !error ? (
-        <div className="vk-chat-chrome">
-          <div>
-            <p className="font-serif text-lg text-milk">Чат ВКонтакте</p>
-            <p className="text-xs text-milk/60">салон Valentin</p>
-          </div>
-          <button
-            type="button"
-            onClick={closeChat}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-milk/20 text-milk transition hover:bg-milk/10"
-            aria-label="Закрыть чат"
-          >
-            <X className="h-4 w-4" />
-          </button>
-        </div>
-      ) : null}
-
-      {/* Кнопка + подсказки */}
-      <div className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-[82] flex flex-col items-end gap-3 sm:right-6">
-        {open && (loading || error) ? (
-          <div className="w-[min(22rem,calc(100vw-2rem))] rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-4 text-sm text-graphite/70 shadow-[0_16px_40px_rgba(40,24,16,0.12)]">
-            {loading ? (
-              <p className="text-graphite/55">Подключаем сообщения сообщества…</p>
-            ) : (
-              <div className="space-y-3">
-                <p>{error}</p>
-                <a
-                  href={SALON_PHONE_HREF}
-                  className="inline-flex min-h-11 items-center justify-center rounded-full bg-wood px-4 text-xs uppercase tracking-[0.14em] text-milk"
-                >
-                  Позвонить
-                </a>
-              </div>
-            )}
-          </div>
-        ) : null}
-
-        {hint && !open ? (
-          <div className="hidden max-w-[16rem] rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-3 text-sm text-graphite shadow-[0_16px_40px_rgba(40,24,16,0.12)] sm:block">
-            Напишите нам в ВК — подберём кухню или диван
-          </div>
-        ) : null}
-
-        <button
-          type="button"
-          onClick={open ? closeChat : openChat}
-          className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-wood text-milk shadow-[0_16px_40px_rgba(40,24,16,0.28)] transition hover:-translate-y-0.5"
-          aria-label={open ? "Закрыть чат" : "Написать в ВКонтакте"}
-        >
-          {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
-        </button>
-      </div>
-    </>
+    <svg viewBox="0 0 24 24" aria-hidden className={className} fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.132-.132.297-.347.446-.52.149-.174.198-.298.297-.497.099-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.375a9.861 9.861 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+    </svg>
   );
 }
 
 export function ChatWidget() {
+  const [open, setOpen] = useState(false);
+  const [hint, setHint] = useState(true);
+  const rootRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    const onPointerDown = (event: PointerEvent) => {
+      if (!rootRef.current?.contains(event.target as Node)) setOpen(false);
+    };
+
+    document.addEventListener("keydown", onKeyDown);
+    document.addEventListener("pointerdown", onPointerDown);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.removeEventListener("pointerdown", onPointerDown);
+    };
+  }, [open]);
+
+  const rowClass =
+    "flex items-center gap-3 rounded-full border border-brass/20 bg-milk px-4 py-3 text-left transition-colors duration-300 ease-premium hover:border-brass/45";
+
   return (
-    <ChatErrorBoundary>
-      <ChatWidgetInner />
-    </ChatErrorBoundary>
+    <div
+      ref={rootRef}
+      className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-4 z-[90] flex flex-col items-end sm:right-6"
+    >
+      <div
+        role="dialog"
+        aria-label="Связаться с салоном Valentin"
+        aria-hidden={!open}
+        className={`mb-3 w-[min(20rem,calc(100vw-2rem))] origin-bottom-right overflow-hidden rounded-[1.35rem] border border-brass/25 shadow-[0_24px_60px_rgba(40,24,16,0.28)] transition-all duration-300 ease-premium ${
+          open
+            ? "pointer-events-auto translate-y-0 scale-100 opacity-100"
+            : "pointer-events-none translate-y-3 scale-95 opacity-0"
+        }`}
+      >
+        <div className="flex items-start justify-between gap-3 bg-wood px-4 py-3.5">
+          <div>
+            <p className="font-serif text-lg leading-tight text-milk">
+              Написать в салон
+            </p>
+            <p className="mt-0.5 text-xs text-milk/55">
+              Подберём кухню, прихожую или диван
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setOpen(false)}
+            tabIndex={open ? 0 : -1}
+            className="-mr-1 -mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-milk/20 text-milk transition-colors hover:bg-milk/10"
+            aria-label="Закрыть"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
+
+        <div className="space-y-2 bg-cashmere p-3">
+          <button
+            type="button"
+            onClick={() => {
+              openVkMessenger();
+              setOpen(false);
+            }}
+            tabIndex={open ? 0 : -1}
+            className="flex w-full items-center gap-3 rounded-full bg-wood px-4 py-3 text-left transition-[filter] duration-300 ease-premium hover:brightness-110"
+          >
+            <VkIcon className="h-5 w-5 shrink-0 text-milk" />
+            <span className="flex flex-col">
+              <span className="text-sm text-milk">Чат ВКонтакте</span>
+              <span className="text-xs text-milk/50">Ответим в сообщениях</span>
+            </span>
+          </button>
+
+          <a
+            href={SALON_PHONE_HREF}
+            tabIndex={open ? 0 : -1}
+            className={rowClass}
+          >
+            <Phone className="h-4 w-4 shrink-0 text-brass" />
+            <span className="flex flex-col">
+              <span className="text-sm text-graphite">Позвонить</span>
+              <span className="text-xs text-graphite/50">{SALON_PHONE}</span>
+            </span>
+          </a>
+
+          <a
+            href={whatsappUrl(DEFAULT_WHATSAPP_TEXT)}
+            target="_blank"
+            rel="noreferrer"
+            tabIndex={open ? 0 : -1}
+            className={rowClass}
+          >
+            <WhatsAppIcon className="h-4 w-4 shrink-0 text-brass" />
+            <span className="flex flex-col">
+              <span className="text-sm text-graphite">WhatsApp</span>
+              <span className="text-xs text-graphite/50">Напишем в мессенджер</span>
+            </span>
+          </a>
+
+          <p className="pt-1 text-center text-[11px] uppercase tracking-[0.14em] text-graphite/40">
+            {SALON_HOURS_LABEL}
+          </p>
+        </div>
+      </div>
+
+      {hint && !open ? (
+        <div className="mb-3 hidden max-w-[15rem] rounded-[1.2rem] border border-brass/20 bg-milk px-4 py-3 text-sm text-graphite shadow-[0_16px_40px_rgba(40,24,16,0.12)] sm:block">
+          Напишите нам — подберём кухню или диван
+        </div>
+      ) : null}
+
+      <button
+        type="button"
+        onClick={() => {
+          setHint(false);
+          setOpen((value) => !value);
+        }}
+        className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-wood text-milk shadow-[0_16px_40px_rgba(40,24,16,0.28)] transition-transform duration-300 ease-premium hover:-translate-y-0.5"
+        aria-label={open ? "Закрыть" : "Связаться с салоном"}
+        aria-expanded={open}
+      >
+        {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
+      </button>
+    </div>
   );
 }
