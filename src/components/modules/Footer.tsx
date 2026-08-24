@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 function VkIcon({ className }: { className?: string }) {
@@ -56,27 +57,27 @@ export function Footer() {
             Навигация
           </p>
           <div className="flex flex-col gap-2">
-            <a href="/#projects" className="hover:text-milk">
+            <Link href="/#projects" className="hover:text-milk">
               Наши проекты
-            </a>
-            <a href="/#reviews" className="hover:text-milk">
+            </Link>
+            <Link href="/#reviews" className="hover:text-milk">
               Отзывы
-            </a>
-            <a href="/#stages" className="hover:text-milk">
+            </Link>
+            <Link href="/#stages" className="hover:text-milk">
               Этапы работы
-            </a>
-            <a href="/catalog" className="hover:text-milk">
+            </Link>
+            <Link href="/catalog" className="hover:text-milk">
               Каталог
-            </a>
-            <a href="/#before-after" className="hover:text-milk">
+            </Link>
+            <Link href="/#before-after" className="hover:text-milk">
               Пространство
-            </a>
-            <a href="/#contacts" className="hover:text-milk">
+            </Link>
+            <Link href="/#contacts" className="hover:text-milk">
               Контакты
-            </a>
-            <a href="/privacy" className="hover:text-milk">
+            </Link>
+            <Link href="/privacy" className="hover:text-milk">
               Политика конфиденциальности
-            </a>
+            </Link>
           </div>
           <a
             href="https://vk.ru/club143735775"
@@ -91,9 +92,9 @@ export function Footer() {
       </div>
       <div className="border-t border-brass/15 px-5 py-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] text-center text-xs text-milk/35 md:px-8">
         © {new Date().getFullYear()} Valentin. Архитектура интерьера.{" "}
-        <a href="/privacy" className="hover:text-milk/60">
+        <Link href="/privacy" className="hover:text-milk/60">
           Персональные данные
-        </a>
+        </Link>
       </div>
     </footer>
   );
