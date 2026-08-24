@@ -58,6 +58,10 @@ export function CartProvider({ children }: { children: ReactNode }) {
     );
   }, []);
 
+  const clearCart = useCallback(() => {
+    setItems([]);
+  }, []);
+
   const total = useMemo(
     () =>
       items.reduce(
@@ -81,10 +85,11 @@ export function CartProvider({ children }: { children: ReactNode }) {
       addItem,
       removeItem,
       updateQuantity,
+      clearCart,
       total,
       count,
     }),
-    [items, isOpen, addItem, removeItem, updateQuantity, total, count]
+    [items, isOpen, addItem, removeItem, updateQuantity, clearCart, total, count]
   );
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
