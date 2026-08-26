@@ -103,9 +103,7 @@ export default async function ProductPage({
               <p className="mb-3 text-xs uppercase tracking-[0.16em] text-graphite/45">
                 Задать вопрос
               </p>
-              <MessengerLinks
-                text={`Здравствуйте! Интересует ${product.name} на сайте Valentin.`}
-              />
+              <MessengerLinks />
             </div>
           </div>
         </div>

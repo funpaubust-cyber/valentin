@@ -10,9 +10,9 @@ export default function HomePage() {
     <main>
       <Hero />
       <Projects />
-      <ReviewsTicker />
       <WorkStages />
       <BeforeAfter />
+      <ReviewsTicker />
       <ContactsMap />
     </main>
   );

@@ -1,20 +1,16 @@
 import {
-  DEFAULT_WHATSAPP_TEXT,
+  SALON_EMAIL,
   SALON_PHONE,
   SALON_PHONE_HREF,
   VK_URL,
-  viberUrl,
-  whatsappUrl,
 } from "@/data/salon";
 
 type MessengerLinksProps = {
-  text?: string;
   className?: string;
   tone?: "light" | "dark";
 };
 
 export function MessengerLinks({
-  text = DEFAULT_WHATSAPP_TEXT,
   className = "",
   tone = "light",
 }: MessengerLinksProps) {
@@ -25,14 +21,11 @@ export function MessengerLinks({
 
   return (
     <div className={`flex flex-wrap gap-2 ${className}`}>
-      <a href={whatsappUrl(text)} target="_blank" rel="noreferrer" className={link}>
-        WhatsApp
+      <a href={`mailto:${SALON_EMAIL}`} className={link}>
+        Почта
       </a>
       <a href={VK_URL} target="_blank" rel="noreferrer" className={link}>
         ВКонтакте
-      </a>
-      <a href={viberUrl()} className={link}>
-        Viber
       </a>
       <a href={SALON_PHONE_HREF} className={link}>
         {SALON_PHONE}

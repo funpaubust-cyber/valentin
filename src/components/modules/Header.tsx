@@ -20,6 +20,7 @@ const nav = [
   { href: "/#stages", label: "Этапы работы", hash: "stages" },
   { href: "/catalog", label: "Каталог", mega: true },
   { href: "/#before-after", label: "Пространство", hash: "before-after" },
+  { href: "/#reviews", label: "Отзывы", hash: "reviews" },
   { href: "/#contacts", label: "Контакты", hash: "contacts" },
 ];
 

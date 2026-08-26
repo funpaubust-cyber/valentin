@@ -60,9 +60,6 @@ export function Footer() {
             <Link href="/#projects" className="hover:text-milk">
               Наши проекты
             </Link>
-            <Link href="/#reviews" className="hover:text-milk">
-              Отзывы
-            </Link>
             <Link href="/#stages" className="hover:text-milk">
               Этапы работы
             </Link>
@@ -71,6 +68,9 @@ export function Footer() {
             </Link>
             <Link href="/#before-after" className="hover:text-milk">
               Пространство
+            </Link>
+            <Link href="/#reviews" className="hover:text-milk">
+              Отзывы
             </Link>
             <Link href="/#contacts" className="hover:text-milk">
               Контакты
