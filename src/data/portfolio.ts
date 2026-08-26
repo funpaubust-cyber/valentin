@@ -13,23 +13,30 @@ export interface ProjectGroup {
   id: ProjectGroupId;
   title: string;
   cover: string;
+  /** Три ракурса для карточки раздела: общий, перспектива, деталь */
+  showcase: string[];
   collections: PortfolioCollection[];
 }
 
-export const PORTFOLIO_VERSION = "3";
+export const PORTFOLIO_VERSION = "5";
 
 export const projectGroups: ProjectGroup[] = [
   {
     "id": "kitchens",
     "title": "Кухни",
-    "cover": "/images/portfolio/kitchens/cover.jpg?v=4",
+    "cover": "/images/portfolio/kitchens/cover.jpg?v=5",
+    "showcase": [
+      "/images/portfolio/kitchens/cover.jpg?v=5",
+      "/images/portfolio/kitchens/showcase-02.jpg?v=5",
+      "/images/portfolio/kitchens/showcase-03.jpg?v=5"
+    ],
     "collections": [
       {
         "id": "kitchen-01",
         "style": "неоклассика",
         "layout": "угловая с островом",
         "images": [
-          "/images/portfolio/kitchens/kitchen-01/01.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-01/01.jpg?v=5"
         ]
       },
       {
@@ -37,7 +44,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "неоклассика",
         "layout": "угловая",
         "images": [
-          "/images/portfolio/kitchens/kitchen-02/01.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-02/01.jpg?v=5"
         ]
       },
       {
@@ -45,7 +52,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "неоклассика",
         "layout": "прямая",
         "images": [
-          "/images/portfolio/kitchens/kitchen-03/01.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-03/01.jpg?v=5"
         ]
       },
       {
@@ -53,7 +60,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "угловая",
         "images": [
-          "/images/portfolio/kitchens/kitchen-04/01.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-04/01.jpg?v=5"
         ]
       },
       {
@@ -61,7 +68,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "прямая",
         "images": [
-          "/images/portfolio/kitchens/kitchen-05/01.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-05/01.jpg?v=5"
         ]
       },
       {
@@ -69,7 +76,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "П-образная с барной стойкой",
         "images": [
-          "/images/portfolio/kitchens/kitchen-06/01.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-06/01.jpg?v=5"
         ]
       },
       {
@@ -77,7 +84,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "прямая",
         "images": [
-          "/images/portfolio/kitchens/kitchen-07/01.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-07/01.jpg?v=5"
         ]
       },
       {
@@ -85,8 +92,8 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "угловая",
         "images": [
-          "/images/portfolio/kitchens/kitchen-08/01.jpg?v=4",
-          "/images/portfolio/kitchens/kitchen-08/02.jpg?v=4"
+          "/images/portfolio/kitchens/kitchen-08/01.jpg?v=5",
+          "/images/portfolio/kitchens/kitchen-08/02.jpg?v=5"
         ]
       }
     ]
@@ -94,17 +101,22 @@ export const projectGroups: ProjectGroup[] = [
   {
     "id": "hallways",
     "title": "Прихожие",
-    "cover": "/images/portfolio/hallways/cover.jpg?v=4",
+    "cover": "/images/portfolio/hallways/cover.jpg?v=5",
+    "showcase": [
+      "/images/portfolio/hallways/cover.jpg?v=5",
+      "/images/portfolio/hallways/showcase-02.jpg?v=5",
+      "/images/portfolio/hallways/showcase-03.jpg?v=5"
+    ],
     "collections": [
       {
         "id": "hallway-01",
         "style": "неоклассика",
         "layout": "с зеркалом и сиденьем",
         "images": [
-          "/images/portfolio/hallways/hallway-01/01.jpg?v=4",
-          "/images/portfolio/hallways/hallway-01/02.jpg?v=4",
-          "/images/portfolio/hallways/hallway-01/03.jpg?v=4",
-          "/images/portfolio/hallways/hallway-01/04.jpg?v=4"
+          "/images/portfolio/hallways/hallway-01/01.jpg?v=5",
+          "/images/portfolio/hallways/hallway-01/02.jpg?v=5",
+          "/images/portfolio/hallways/hallway-01/03.jpg?v=5",
+          "/images/portfolio/hallways/hallway-01/04.jpg?v=5"
         ]
       },
       {
@@ -112,7 +124,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "классика",
         "layout": "с зеркалом и банкеткой",
         "images": [
-          "/images/portfolio/hallways/hallway-02/01.jpg?v=4"
+          "/images/portfolio/hallways/hallway-02/01.jpg?v=5"
         ]
       },
       {
@@ -120,7 +132,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "с круглым зеркалом",
         "images": [
-          "/images/portfolio/hallways/hallway-03/01.jpg?v=4"
+          "/images/portfolio/hallways/hallway-03/01.jpg?v=5"
         ]
       },
       {
@@ -128,7 +140,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "модульная с рейками",
         "images": [
-          "/images/portfolio/hallways/hallway-04/01.jpg?v=4"
+          "/images/portfolio/hallways/hallway-04/01.jpg?v=5"
         ]
       },
       {
@@ -136,7 +148,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "с мягкой панелью",
         "images": [
-          "/images/portfolio/hallways/hallway-05/01.jpg?v=4"
+          "/images/portfolio/hallways/hallway-05/01.jpg?v=5"
         ]
       },
       {
@@ -144,7 +156,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "с зеркалом",
         "images": [
-          "/images/portfolio/hallways/hallway-06/01.jpg?v=4"
+          "/images/portfolio/hallways/hallway-06/01.jpg?v=5"
         ]
       },
       {
@@ -152,7 +164,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "неоклассика",
         "layout": "модульная",
         "images": [
-          "/images/portfolio/hallways/hallway-07/01.jpg?v=4"
+          "/images/portfolio/hallways/hallway-07/01.jpg?v=5"
         ]
       },
       {
@@ -160,7 +172,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "классика",
         "layout": "модульная",
         "images": [
-          "/images/portfolio/hallways/hallway-08/01.jpg?v=4"
+          "/images/portfolio/hallways/hallway-08/01.jpg?v=5"
         ]
       }
     ]
@@ -168,14 +180,19 @@ export const projectGroups: ProjectGroup[] = [
   {
     "id": "sofas",
     "title": "Диваны",
-    "cover": "/images/portfolio/sofas/cover.jpg?v=4",
+    "cover": "/images/portfolio/sofas/cover.jpg?v=5",
+    "showcase": [
+      "/images/portfolio/sofas/cover.jpg?v=5",
+      "/images/portfolio/sofas/showcase-02.jpg?v=5",
+      "/images/portfolio/sofas/showcase-03.jpg?v=5"
+    ],
     "collections": [
       {
         "id": "sofa-01",
         "style": "неоклассика",
         "layout": "прямой",
         "images": [
-          "/images/portfolio/sofas/sofa-01/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-01/01.jpg?v=5"
         ]
       },
       {
@@ -183,7 +200,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "прямой",
         "images": [
-          "/images/portfolio/sofas/sofa-02/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-02/01.jpg?v=5"
         ]
       },
       {
@@ -191,7 +208,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "неоклассика",
         "layout": "прямой",
         "images": [
-          "/images/portfolio/sofas/sofa-03/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-03/01.jpg?v=5"
         ]
       },
       {
@@ -199,7 +216,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "прямой",
         "images": [
-          "/images/portfolio/sofas/sofa-04/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-04/01.jpg?v=5"
         ]
       },
       {
@@ -207,7 +224,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "классика",
         "layout": "прямой",
         "images": [
-          "/images/portfolio/sofas/sofa-05/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-05/01.jpg?v=5"
         ]
       },
       {
@@ -215,7 +232,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "классика",
         "layout": "кресло",
         "images": [
-          "/images/portfolio/sofas/sofa-06/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-06/01.jpg?v=5"
         ]
       },
       {
@@ -223,7 +240,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "современный",
         "layout": "прямой",
         "images": [
-          "/images/portfolio/sofas/sofa-07/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-07/01.jpg?v=5"
         ]
       },
       {
@@ -231,7 +248,7 @@ export const projectGroups: ProjectGroup[] = [
         "style": "классика",
         "layout": "прямой",
         "images": [
-          "/images/portfolio/sofas/sofa-08/01.jpg?v=4"
+          "/images/portfolio/sofas/sofa-08/01.jpg?v=5"
         ]
       }
     ]

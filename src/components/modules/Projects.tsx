@@ -3,7 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import {
@@ -50,7 +50,7 @@ function PortfolioCard({
             fill
             className="object-cover"
             sizes="(max-width:768px) 100vw, 360px"
-            quality={88}
+            quality={95}
           />
         </button>
 
@@ -107,6 +107,132 @@ function PortfolioCard({
         </button>
       </div>
     </article>
+  );
+}
+
+function GroupShowcaseCard({
+  group,
+  onOpen,
+}: {
+  group: ProjectGroup;
+  onOpen: () => void;
+}) {
+  const images =
+    group.showcase.length > 0 ? group.showcase : [group.cover];
+  const [index, setIndex] = useState(0);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const swiped = useRef(false);
+
+  const prev = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setIndex((i) => (i - 1 + images.length) % images.length);
+  };
+
+  const next = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setIndex((i) => (i + 1) % images.length);
+  };
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStart.current = {
+      x: e.touches[0].clientX,
+      y: e.touches[0].clientY,
+    };
+    swiped.current = false;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (!touchStart.current) return;
+    const dx = e.changedTouches[0].clientX - touchStart.current.x;
+    const dy = e.changedTouches[0].clientY - touchStart.current.y;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+      swiped.current = true;
+      if (dx < 0) setIndex((i) => (i + 1) % images.length);
+      else setIndex((i) => (i - 1 + images.length) % images.length);
+    }
+    touchStart.current = null;
+  };
+
+  const handleOpen = () => {
+    if (swiped.current) {
+      swiped.current = false;
+      return;
+    }
+    onOpen();
+  };
+
+  return (
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={handleOpen}
+      onKeyDown={(e) => {
+        if (e.key !== "Enter" && e.key !== " ") return;
+        e.preventDefault();
+        handleOpen();
+      }}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+      className="group relative aspect-square cursor-pointer overflow-hidden rounded-2xl bg-walnut text-left shadow-soft md:rounded-[1.75rem]"
+      aria-label={`${group.title}: ракурс ${index + 1} из ${images.length}. Открыть проекты`}
+    >
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.div
+          key={images[index]}
+          className="absolute inset-0"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.25 }}
+        >
+          <Image
+            src={images[index]}
+            alt={`${group.title} — ракурс ${index + 1}`}
+            fill
+            className="object-cover transition-transform duration-700 ease-premium group-hover:scale-105"
+            sizes="(max-width:768px) 33vw, 280px"
+            quality={95}
+            priority={index === 0}
+          />
+        </motion.div>
+      </AnimatePresence>
+
+      {images.length > 1 && (
+        <>
+          <button
+            type="button"
+            onClick={prev}
+            className="absolute left-1.5 top-1/2 z-10 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-graphite/55 text-milk opacity-100 md:left-2 md:h-9 md:w-9 md:opacity-0 md:transition-opacity md:group-hover:opacity-100"
+            aria-label="Предыдущий ракурс"
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </button>
+          <button
+            type="button"
+            onClick={next}
+            className="absolute right-1.5 top-1/2 z-10 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-graphite/55 text-milk opacity-100 md:right-2 md:h-9 md:w-9 md:opacity-0 md:transition-opacity md:group-hover:opacity-100"
+            aria-label="Следующий ракурс"
+          >
+            <ChevronRight className="h-4 w-4" />
+          </button>
+          <div className="pointer-events-none absolute inset-x-0 bottom-12 z-10 flex justify-center gap-1.5 md:bottom-14">
+            {images.map((_, i) => (
+              <span
+                key={i}
+                className={`h-0.5 w-4 rounded-full transition-colors ${
+                  i === index ? "bg-milk" : "bg-milk/45"
+                }`}
+              />
+            ))}
+          </div>
+        </>
+      )}
+
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-graphite/70 via-graphite/15 to-transparent" />
+      <span className="absolute inset-x-0 bottom-0 z-10 p-2 font-serif text-[0.95rem] leading-tight text-milk sm:p-3 sm:text-lg md:p-5 md:text-2xl">
+        {group.title}
+      </span>
+    </div>
   );
 }
 
@@ -243,7 +369,7 @@ export function Projects() {
                   fill
                   className="object-contain"
                   sizes="90vw"
-                  quality={92}
+                  quality={95}
                   priority
                 />
               </motion.div>
@@ -272,26 +398,11 @@ export function Projects() {
         <FadeIn delay={0.08} className="mt-8">
           <div className="grid grid-cols-3 gap-3 md:gap-5">
             {projectGroups.map((group) => (
-              <button
+              <GroupShowcaseCard
                 key={group.id}
-                type="button"
-                onClick={() => setOpen(group)}
-                className="group relative aspect-square overflow-hidden rounded-2xl bg-walnut text-left shadow-soft md:rounded-[1.75rem]"
-                aria-label={`Открыть проекты: ${group.title}`}
-              >
-                <Image
-                  src={group.cover}
-                  alt={group.title}
-                  fill
-                  className="object-cover transition-transform duration-700 ease-premium group-hover:scale-105"
-                  sizes="(max-width:768px) 33vw, 280px"
-                  quality={88}
-                />
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-graphite/70 via-graphite/15 to-transparent" />
-                <span className="absolute inset-x-0 bottom-0 p-2 font-serif text-[0.95rem] leading-tight text-milk sm:p-3 sm:text-lg md:p-5 md:text-2xl">
-                  {group.title}
-                </span>
-              </button>
+                group={group}
+                onOpen={() => setOpen(group)}
+              />
             ))}
           </div>
         </FadeIn>
