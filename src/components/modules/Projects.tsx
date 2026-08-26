@@ -31,27 +31,79 @@ function PortfolioCard({
   const [index, setIndex] = useState(0);
   const total = collection.images.length;
   const current = collection.images[index];
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const swiped = useRef(false);
 
-  const prev = () => setIndex((i) => (i - 1 + total) % total);
-  const next = () => setIndex((i) => (i + 1) % total);
+  const prev = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setIndex((i) => (i - 1 + total) % total);
+  };
+
+  const next = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setIndex((i) => (i + 1) % total);
+  };
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStart.current = {
+      x: e.touches[0].clientX,
+      y: e.touches[0].clientY,
+    };
+    swiped.current = false;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (!touchStart.current || total <= 1) return;
+    const dx = e.changedTouches[0].clientX - touchStart.current.x;
+    const dy = e.changedTouches[0].clientY - touchStart.current.y;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+      swiped.current = true;
+      if (dx < 0) setIndex((i) => (i + 1) % total);
+      else setIndex((i) => (i - 1 + total) % total);
+    }
+    touchStart.current = null;
+  };
+
+  const openLightbox = () => {
+    if (swiped.current) {
+      swiped.current = false;
+      return;
+    }
+    onOpenLightbox(current);
+  };
 
   return (
     <article className="flex flex-col overflow-hidden rounded-2xl bg-milk shadow-soft md:rounded-[1.25rem]">
-      <div className="group relative aspect-[4/3] bg-walnut">
+      <div
+        className="group relative aspect-[4/3] bg-walnut"
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+      >
         <button
           type="button"
           className="relative block h-full w-full"
-          onClick={() => onOpenLightbox(current)}
-          aria-label={`${categoryTitle}: фото ${index + 1} из ${total}`}
+          onClick={openLightbox}
+          aria-label={`${categoryTitle}: ракурс ${index + 1} из ${total}`}
         >
-          <Image
-            src={current}
-            alt={`${categoryTitle} — ${collection.style}`}
-            fill
-            className="object-cover"
-            sizes="(max-width:768px) 100vw, 360px"
-            quality={95}
-          />
+          <AnimatePresence mode="wait" initial={false}>
+            <motion.div
+              key={current}
+              className="absolute inset-0"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Image
+                src={current}
+                alt={`${categoryTitle} — ${collection.style}, ракурс ${index + 1}`}
+                fill
+                className="object-cover"
+                sizes="(max-width:768px) 100vw, 360px"
+                quality={95}
+              />
+            </motion.div>
+          </AnimatePresence>
         </button>
 
         {total > 1 && (
@@ -59,20 +111,20 @@ function PortfolioCard({
             <button
               type="button"
               onClick={prev}
-              className="absolute left-2 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-graphite/55 text-milk opacity-100 md:h-8 md:w-8 md:opacity-0 md:transition-opacity md:group-hover:opacity-100"
-              aria-label="Предыдущее фото"
+              className="absolute left-2 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-graphite/55 text-milk opacity-100 md:h-8 md:w-8 md:opacity-0 md:transition-opacity md:group-hover:opacity-100"
+              aria-label="Предыдущий ракурс"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
             <button
               type="button"
               onClick={next}
-              className="absolute right-2 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-graphite/55 text-milk opacity-100 md:h-8 md:w-8 md:opacity-0 md:transition-opacity md:group-hover:opacity-100"
-              aria-label="Следующее фото"
+              className="absolute right-2 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-graphite/55 text-milk opacity-100 md:h-8 md:w-8 md:opacity-0 md:transition-opacity md:group-hover:opacity-100"
+              aria-label="Следующий ракурс"
             >
               <ChevronRight className="h-4 w-4" />
             </button>
-            <div className="pointer-events-none absolute inset-x-0 bottom-3 flex justify-center gap-1.5">
+            <div className="pointer-events-none absolute inset-x-0 bottom-3 z-10 flex justify-center gap-1.5">
               {collection.images.map((_, i) => (
                 <span
                   key={i}
