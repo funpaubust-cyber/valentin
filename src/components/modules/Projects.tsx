@@ -75,7 +75,7 @@ function PortfolioCard({
   return (
     <article className="flex flex-col overflow-hidden rounded-2xl bg-milk shadow-soft md:rounded-[1.25rem]">
       <div
-        className="group relative aspect-[4/3] bg-walnut"
+        className="group relative aspect-[4/3] bg-cashmere"
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
@@ -98,7 +98,7 @@ function PortfolioCard({
                 src={current}
                 alt={`${categoryTitle} — ${collection.style}, ракурс ${index + 1}`}
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width:768px) 100vw, 360px"
                 quality={95}
               />
